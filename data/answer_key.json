@@ -1,0 +1,3072 @@
+[
+ {
+  "id": "inv_001",
+  "ocr_file": "data/ocr/inv_001.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0001",
+   "issue_date": "2026-06-09",
+   "sale_date": "2026-06-08",
+   "due_date": "2026-06-23",
+   "seller_name": "BiuroMax S.A.",
+   "seller_nip": "5252248481",
+   "seller_address": "al. Handlowa 88, 00-950 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Hosting serwera VPS",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 182.11,
+     "vat_rate": 0.23,
+     "net": 182.11,
+     "vat": 41.89,
+     "gross": 224.0
+    },
+    {
+     "description": "Hosting serwera VPS",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 164.0,
+     "vat_rate": 0.23,
+     "net": 164.0,
+     "vat": 37.72,
+     "gross": 201.72
+    }
+   ],
+   "total_net": 346.11,
+   "total_vat": 79.61,
+   "total_gross": 425.72,
+   "payment_method": "Przelew",
+   "category": "Usługi IT i oprogramowanie"
+  }
+ },
+ {
+  "id": "inv_002",
+  "ocr_file": "data/ocr/inv_002.txt",
+  "expected_anomaly": "arithmetic",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/02/0002",
+   "issue_date": "2026-02-08",
+   "sale_date": "2026-02-08",
+   "due_date": "2026-02-22",
+   "seller_name": "SoftForge Sp. z o.o.",
+   "seller_nip": "6772345191",
+   "seller_address": "ul. Krzemowa 12, 30-001 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Papier ksero A4 (ryza)",
+     "quantity": 2.0,
+     "unit": "szt.",
+     "unit_price_net": 25.07,
+     "vat_rate": 0.23,
+     "net": 50.14,
+     "vat": 11.53,
+     "gross": 61.67
+    },
+    {
+     "description": "Papier ksero A4 (ryza)",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 26.38,
+     "vat_rate": 0.23,
+     "net": 26.38,
+     "vat": 6.07,
+     "gross": 32.45
+    },
+    {
+     "description": "Toner do drukarki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 160.42,
+     "vat_rate": 0.23,
+     "net": 160.42,
+     "vat": 36.9,
+     "gross": 197.32
+    },
+    {
+     "description": "Toner do drukarki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 144.11,
+     "vat_rate": 0.23,
+     "net": 144.11,
+     "vat": 33.15,
+     "gross": 177.26
+    }
+   ],
+   "total_net": 381.05,
+   "total_vat": 87.65,
+   "total_gross": 478.7,
+   "payment_method": "Przelew",
+   "category": "Materiały biurowe"
+  }
+ },
+ {
+  "id": "inv_003",
+  "ocr_file": "data/ocr/inv_003.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/05/0003",
+   "issue_date": "2026-05-09",
+   "sale_date": "2026-05-09",
+   "due_date": "2026-06-08",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938475",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Energia elektryczna",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 586.43,
+     "vat_rate": 0.23,
+     "net": 586.43,
+     "vat": 134.88,
+     "gross": 721.31
+    }
+   ],
+   "total_net": 586.43,
+   "total_vat": 134.88,
+   "total_gross": 721.31,
+   "payment_method": "Gotówka",
+   "category": "Wynajem i media"
+  }
+ },
+ {
+  "id": "inv_004",
+  "ocr_file": "data/ocr/inv_004.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/01/0004",
+   "issue_date": "2026-01-22",
+   "sale_date": "2026-01-21",
+   "due_date": "2026-02-12",
+   "seller_name": "NetCom Polska Sp. z o.o.",
+   "seller_nip": "1981726351",
+   "seller_address": "ul. Światłowodowa 21, 50-100 Wrocław",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Papier ksero A4 (ryza)",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 22.56,
+     "vat_rate": 0.23,
+     "net": 22.56,
+     "vat": 5.19,
+     "gross": 27.75
+    }
+   ],
+   "total_net": 22.56,
+   "total_vat": 5.19,
+   "total_gross": 27.75,
+   "payment_method": "Karta",
+   "category": "Materiały biurowe"
+  }
+ },
+ {
+  "id": "inv_005",
+  "ocr_file": "data/ocr/inv_005.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/03/0005",
+   "issue_date": "2026-03-12",
+   "sale_date": "2026-03-11",
+   "due_date": "2026-04-02",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938475",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Paliwo Diesel",
+     "quantity": 54.0,
+     "unit": "l",
+     "unit_price_net": 6.6,
+     "vat_rate": 0.23,
+     "net": 356.4,
+     "vat": 81.97,
+     "gross": 438.37
+    }
+   ],
+   "total_net": 356.4,
+   "total_vat": 81.97,
+   "total_gross": 438.37,
+   "payment_method": "Przelew",
+   "category": "Paliwo i transport"
+  }
+ },
+ {
+  "id": "inv_006",
+  "ocr_file": "data/ocr/inv_006.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/03/0006",
+   "issue_date": "2026-03-21",
+   "sale_date": "2026-03-20",
+   "due_date": "2026-04-11",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Obsługa księgowa (mies.)",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 1285.55,
+     "vat_rate": 0.23,
+     "net": 1285.55,
+     "vat": 295.68,
+     "gross": 1581.23
+    }
+   ],
+   "total_net": 1285.55,
+   "total_vat": 295.68,
+   "total_gross": 1581.23,
+   "payment_method": "Karta",
+   "category": "Usługi księgowe i prawne"
+  }
+ },
+ {
+  "id": "inv_007",
+  "ocr_file": "data/ocr/inv_007.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/02/0007",
+   "issue_date": "2026-02-19",
+   "sale_date": "2026-02-17",
+   "due_date": "2026-03-05",
+   "seller_name": "Kreatywni Sp. z o.o.",
+   "seller_nip": "7792483011",
+   "seller_address": "ul. Reklamowa 7, 61-001 Poznań",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Toner do drukarki",
+     "quantity": 2.0,
+     "unit": "szt.",
+     "unit_price_net": 157.15,
+     "vat_rate": 0.23,
+     "net": 314.3,
+     "vat": 72.29,
+     "gross": 386.59
+    },
+    {
+     "description": "Papier ksero A4 (ryza)",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 26.94,
+     "vat_rate": 0.23,
+     "net": 26.94,
+     "vat": 6.2,
+     "gross": 33.14
+    },
+    {
+     "description": "Zestaw długopisów",
+     "quantity": 1.0,
+     "unit": "opak.",
+     "unit_price_net": 20.7,
+     "vat_rate": 0.23,
+     "net": 20.7,
+     "vat": 4.76,
+     "gross": 25.46
+    },
+    {
+     "description": "Toner do drukarki",
+     "quantity": 3.0,
+     "unit": "szt.",
+     "unit_price_net": 223.84,
+     "vat_rate": 0.23,
+     "net": 671.52,
+     "vat": 154.45,
+     "gross": 825.97
+    }
+   ],
+   "total_net": 1033.46,
+   "total_vat": 237.7,
+   "total_gross": 1271.16,
+   "payment_method": "Przelew",
+   "category": "Materiały biurowe"
+  }
+ },
+ {
+  "id": "inv_008",
+  "ocr_file": "data/ocr/inv_008.txt",
+  "expected_anomaly": "arithmetic",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/01/0008",
+   "issue_date": "2026-01-25",
+   "sale_date": "2026-01-25",
+   "due_date": "2026-02-01",
+   "seller_name": "PetroTrans Sp. z o.o.",
+   "seller_nip": "5832917645",
+   "seller_address": "ul. Paliwowa 3, 80-200 Gdańsk",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Krzesło biurowe",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 1012.87,
+     "vat_rate": 0.23,
+     "net": 1012.87,
+     "vat": 232.96,
+     "gross": 1245.83
+    },
+    {
+     "description": "Monitor 27\"",
+     "quantity": 3.0,
+     "unit": "szt.",
+     "unit_price_net": 757.17,
+     "vat_rate": 0.23,
+     "net": 2271.51,
+     "vat": 522.45,
+     "gross": 2793.96
+    }
+   ],
+   "total_net": 3284.38,
+   "total_vat": 755.41,
+   "total_gross": 4129.79,
+   "payment_method": "Karta",
+   "category": "Sprzęt i wyposażenie"
+  }
+ },
+ {
+  "id": "inv_009",
+  "ocr_file": "data/ocr/inv_009.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/05/0009",
+   "issue_date": "2026-05-28",
+   "sale_date": "2026-05-28",
+   "due_date": "2026-06-04",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Projekt graficzny",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 122.29,
+     "vat_rate": 0.23,
+     "net": 122.29,
+     "vat": 28.13,
+     "gross": 150.42
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 2.0,
+     "unit": "usł.",
+     "unit_price_net": 508.11,
+     "vat_rate": 0.23,
+     "net": 1016.22,
+     "vat": 233.73,
+     "gross": 1249.95
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 3.0,
+     "unit": "godz.",
+     "unit_price_net": 173.82,
+     "vat_rate": 0.23,
+     "net": 521.46,
+     "vat": 119.94,
+     "gross": 641.4
+    }
+   ],
+   "total_net": 1659.97,
+   "total_vat": 381.8,
+   "total_gross": 2041.77,
+   "payment_method": "Przelew",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_010",
+  "ocr_file": "data/ocr/inv_010.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/02/0010",
+   "issue_date": "2026-02-12",
+   "sale_date": "2026-02-11",
+   "due_date": "2026-02-19",
+   "seller_name": "Kreatywni Sp. z o.o.",
+   "seller_nip": "7792483011",
+   "seller_address": "ul. Reklamowa 7, 61-001 Poznań",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 73.42,
+     "vat_rate": 0.23,
+     "net": 73.42,
+     "vat": 16.89,
+     "gross": 90.31
+    },
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 88.73,
+     "vat_rate": 0.23,
+     "net": 88.73,
+     "vat": 20.41,
+     "gross": 109.14
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 115.76,
+     "vat_rate": 0.23,
+     "net": 347.28,
+     "vat": 79.87,
+     "gross": 427.15
+    }
+   ],
+   "total_net": 509.43,
+   "total_vat": 117.17,
+   "total_gross": 626.6,
+   "payment_method": "Przelew",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_011",
+  "ocr_file": "data/ocr/inv_011.txt",
+  "expected_anomaly": "wrong_vat",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/05/0011",
+   "issue_date": "2026-05-25",
+   "sale_date": "2026-05-24",
+   "due_date": "2026-06-08",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Zestaw długopisów",
+     "quantity": 1.0,
+     "unit": "opak.",
+     "unit_price_net": 12.51,
+     "vat_rate": 0.08,
+     "net": 12.51,
+     "vat": 1.0,
+     "gross": 13.51
+    },
+    {
+     "description": "Zestaw długopisów",
+     "quantity": 2.0,
+     "unit": "opak.",
+     "unit_price_net": 24.39,
+     "vat_rate": 0.23,
+     "net": 48.78,
+     "vat": 11.22,
+     "gross": 60.0
+    },
+    {
+     "description": "Zestaw długopisów",
+     "quantity": 1.0,
+     "unit": "opak.",
+     "unit_price_net": 20.12,
+     "vat_rate": 0.23,
+     "net": 20.12,
+     "vat": 4.63,
+     "gross": 24.75
+    },
+    {
+     "description": "Toner do drukarki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 233.91,
+     "vat_rate": 0.23,
+     "net": 233.91,
+     "vat": 53.8,
+     "gross": 287.71
+    }
+   ],
+   "total_net": 315.32,
+   "total_vat": 70.65,
+   "total_gross": 385.97,
+   "payment_method": "Karta",
+   "category": "Materiały biurowe"
+  }
+ },
+ {
+  "id": "inv_012",
+  "ocr_file": "data/ocr/inv_012.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/02/0012",
+   "issue_date": "2026-02-03",
+   "sale_date": "2026-02-01",
+   "due_date": "2026-02-10",
+   "seller_name": "BiuroMax S.A.",
+   "seller_nip": "5252248481",
+   "seller_address": "al. Handlowa 88, 00-950 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 45.68,
+     "vat_rate": 0.23,
+     "net": 45.68,
+     "vat": 10.51,
+     "gross": 56.19
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 45.39,
+     "vat_rate": 0.23,
+     "net": 45.39,
+     "vat": 10.44,
+     "gross": 55.83
+    }
+   ],
+   "total_net": 91.07,
+   "total_vat": 20.95,
+   "total_gross": 112.02,
+   "payment_method": "Przelew",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_013",
+  "ocr_file": "data/ocr/inv_013.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/05/0013",
+   "issue_date": "2026-05-08",
+   "sale_date": "2026-05-06",
+   "due_date": "2026-06-07",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938475",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Zestaw długopisów",
+     "quantity": 1.0,
+     "unit": "opak.",
+     "unit_price_net": 20.3,
+     "vat_rate": 0.23,
+     "net": 20.3,
+     "vat": 4.67,
+     "gross": 24.97
+    },
+    {
+     "description": "Zestaw długopisów",
+     "quantity": 3.0,
+     "unit": "opak.",
+     "unit_price_net": 16.04,
+     "vat_rate": 0.23,
+     "net": 48.12,
+     "vat": 11.07,
+     "gross": 59.19
+    }
+   ],
+   "total_net": 68.42,
+   "total_vat": 15.74,
+   "total_gross": 84.16,
+   "payment_method": "Karta",
+   "category": "Materiały biurowe"
+  }
+ },
+ {
+  "id": "inv_014",
+  "ocr_file": "data/ocr/inv_014.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/01/0014",
+   "issue_date": "2026-01-04",
+   "sale_date": "2026-01-01",
+   "due_date": "2026-01-25",
+   "seller_name": "Kancelaria Nowak i Wspólnicy",
+   "seller_nip": "5261048824",
+   "seller_address": "ul. Prawna 15, 00-020 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 163.66,
+     "vat_rate": 0.23,
+     "net": 327.32,
+     "vat": 75.28,
+     "gross": 402.6
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 44.85,
+     "vat_rate": 0.23,
+     "net": 44.85,
+     "vat": 10.32,
+     "gross": 55.17
+    },
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 89.84,
+     "vat_rate": 0.23,
+     "net": 89.84,
+     "vat": 20.66,
+     "gross": 110.5
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 75.89,
+     "vat_rate": 0.23,
+     "net": 227.67,
+     "vat": 52.36,
+     "gross": 280.03
+    }
+   ],
+   "total_net": 689.68,
+   "total_vat": 158.62,
+   "total_gross": 848.3,
+   "payment_method": "Karta",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_015",
+  "ocr_file": "data/ocr/inv_015.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/04/0015",
+   "issue_date": "2026-04-08",
+   "sale_date": "2026-04-08",
+   "due_date": "2026-05-08",
+   "seller_name": "PetroTrans Sp. z o.o.",
+   "seller_nip": "5832917645",
+   "seller_address": "ul. Paliwowa 3, 80-200 Gdańsk",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 3.0,
+     "unit": "usł.",
+     "unit_price_net": 2590.07,
+     "vat_rate": 0.23,
+     "net": 7770.21,
+     "vat": 1787.15,
+     "gross": 9557.36
+    }
+   ],
+   "total_net": 7770.21,
+   "total_vat": 1787.15,
+   "total_gross": 9557.36,
+   "payment_method": "Przelew",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_016",
+  "ocr_file": "data/ocr/inv_016.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/04/0016",
+   "issue_date": "2026-04-16",
+   "sale_date": "2026-04-13",
+   "due_date": "2026-04-30",
+   "seller_name": "NetCom Polska Sp. z o.o.",
+   "seller_nip": "1981726351",
+   "seller_address": "ul. Światłowodowa 21, 50-100 Wrocław",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Paliwo Diesel",
+     "quantity": 30.0,
+     "unit": "l",
+     "unit_price_net": 6.22,
+     "vat_rate": 0.23,
+     "net": 186.6,
+     "vat": 42.92,
+     "gross": 229.52
+    },
+    {
+     "description": "Przewóz przesyłki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 56.69,
+     "vat_rate": 0.23,
+     "net": 56.69,
+     "vat": 13.04,
+     "gross": 69.73
+    },
+    {
+     "description": "Przewóz przesyłki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 34.04,
+     "vat_rate": 0.23,
+     "net": 34.04,
+     "vat": 7.83,
+     "gross": 41.87
+    },
+    {
+     "description": "Przewóz przesyłki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 23.55,
+     "vat_rate": 0.23,
+     "net": 23.55,
+     "vat": 5.42,
+     "gross": 28.97
+    }
+   ],
+   "total_net": 300.88,
+   "total_vat": 69.21,
+   "total_gross": 370.09,
+   "payment_method": "Przelew",
+   "category": "Paliwo i transport"
+  }
+ },
+ {
+  "id": "inv_017",
+  "ocr_file": "data/ocr/inv_017.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0017",
+   "issue_date": "2026-06-11",
+   "sale_date": "2026-06-11",
+   "due_date": "2026-06-18",
+   "seller_name": "SoftForge Sp. z o.o.",
+   "seller_nip": "6772345191",
+   "seller_address": "ul. Krzemowa 12, 30-001 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Hosting serwera VPS",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 73.06,
+     "vat_rate": 0.23,
+     "net": 219.18,
+     "vat": 50.41,
+     "gross": 269.59
+    },
+    {
+     "description": "Hosting serwera VPS",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 218.78,
+     "vat_rate": 0.23,
+     "net": 218.78,
+     "vat": 50.32,
+     "gross": 269.1
+    },
+    {
+     "description": "Licencja oprogramowania (mies.)",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 115.34,
+     "vat_rate": 0.23,
+     "net": 346.02,
+     "vat": 79.58,
+     "gross": 425.6
+    },
+    {
+     "description": "Licencja oprogramowania (mies.)",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 142.34,
+     "vat_rate": 0.23,
+     "net": 284.68,
+     "vat": 65.48,
+     "gross": 350.16
+    }
+   ],
+   "total_net": 1068.66,
+   "total_vat": 245.79,
+   "total_gross": 1314.45,
+   "payment_method": "Przelew",
+   "category": "Usługi IT i oprogramowanie"
+  }
+ },
+ {
+  "id": "inv_018",
+  "ocr_file": "data/ocr/inv_018.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/04/0018",
+   "issue_date": "2026-04-22",
+   "sale_date": "2026-04-20",
+   "due_date": "2026-05-13",
+   "seller_name": "SoftForge Sp. z o.o.",
+   "seller_nip": "6772345191",
+   "seller_address": "ul. Krzemowa 12, 30-001 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Zestaw długopisów",
+     "quantity": 1.0,
+     "unit": "opak.",
+     "unit_price_net": 12.06,
+     "vat_rate": 0.23,
+     "net": 12.06,
+     "vat": 2.77,
+     "gross": 14.83
+    },
+    {
+     "description": "Toner do drukarki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 294.64,
+     "vat_rate": 0.23,
+     "net": 294.64,
+     "vat": 67.77,
+     "gross": 362.41
+    }
+   ],
+   "total_net": 306.7,
+   "total_vat": 70.54,
+   "total_gross": 377.24,
+   "payment_method": "Gotówka",
+   "category": "Materiały biurowe"
+  }
+ },
+ {
+  "id": "inv_019",
+  "ocr_file": "data/ocr/inv_019.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/01/0019",
+   "issue_date": "2026-01-01",
+   "sale_date": "2025-12-29",
+   "due_date": "2026-01-08",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Wynajem powierzchni biurowej",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 2693.4,
+     "vat_rate": 0.23,
+     "net": 8080.2,
+     "vat": 1858.45,
+     "gross": 9938.65
+    }
+   ],
+   "total_net": 8080.2,
+   "total_vat": 1858.45,
+   "total_gross": 9938.65,
+   "payment_method": "Gotówka",
+   "category": "Wynajem i media"
+  }
+ },
+ {
+  "id": "inv_020",
+  "ocr_file": "data/ocr/inv_020.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/03/0020",
+   "issue_date": "2026-03-10",
+   "sale_date": "2026-03-09",
+   "due_date": "2026-04-09",
+   "seller_name": "BiuroMax S.A.",
+   "seller_nip": "5252248481",
+   "seller_address": "al. Handlowa 88, 00-950 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 63.95,
+     "vat_rate": 0.23,
+     "net": 191.85,
+     "vat": 44.13,
+     "gross": 235.98
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 61.16,
+     "vat_rate": 0.23,
+     "net": 61.16,
+     "vat": 14.07,
+     "gross": 75.23
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 52.44,
+     "vat_rate": 0.23,
+     "net": 157.32,
+     "vat": 36.18,
+     "gross": 193.5
+    }
+   ],
+   "total_net": 410.33,
+   "total_vat": 94.38,
+   "total_gross": 504.71,
+   "payment_method": "Gotówka",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_021",
+  "ocr_file": "data/ocr/inv_021.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/02/0021",
+   "issue_date": "2026-02-22",
+   "sale_date": "2026-02-20",
+   "due_date": "2026-03-24",
+   "seller_name": "NetCom Polska Sp. z o.o.",
+   "seller_nip": "1981726351",
+   "seller_address": "ul. Światłowodowa 21, 50-100 Wrocław",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Wynajem powierzchni biurowej",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 4354.28,
+     "vat_rate": 0.23,
+     "net": 4354.28,
+     "vat": 1001.48,
+     "gross": 5355.76
+    },
+    {
+     "description": "Energia elektryczna",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 202.48,
+     "vat_rate": 0.23,
+     "net": 202.48,
+     "vat": 46.57,
+     "gross": 249.05
+    },
+    {
+     "description": "Wynajem powierzchni biurowej",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 2227.12,
+     "vat_rate": 0.23,
+     "net": 2227.12,
+     "vat": 512.24,
+     "gross": 2739.36
+    }
+   ],
+   "total_net": 6783.88,
+   "total_vat": 1560.29,
+   "total_gross": 8344.17,
+   "payment_method": "Karta",
+   "category": "Wynajem i media"
+  }
+ },
+ {
+  "id": "inv_022",
+  "ocr_file": "data/ocr/inv_022.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/01/0022",
+   "issue_date": "2026-01-03",
+   "sale_date": "2026-01-02",
+   "due_date": "2026-01-10",
+   "seller_name": "Kancelaria Nowak i Wspólnicy",
+   "seller_nip": "5261048824",
+   "seller_address": "ul. Prawna 15, 00-020 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Hosting serwera VPS",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 71.1,
+     "vat_rate": 0.23,
+     "net": 213.3,
+     "vat": 49.06,
+     "gross": 262.36
+    },
+    {
+     "description": "Licencja oprogramowania (mies.)",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 240.29,
+     "vat_rate": 0.23,
+     "net": 240.29,
+     "vat": 55.27,
+     "gross": 295.56
+    },
+    {
+     "description": "Licencja oprogramowania (mies.)",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 189.24,
+     "vat_rate": 0.23,
+     "net": 189.24,
+     "vat": 43.53,
+     "gross": 232.77
+    }
+   ],
+   "total_net": 642.83,
+   "total_vat": 147.86,
+   "total_gross": 790.69,
+   "payment_method": "Przelew",
+   "category": "Usługi IT i oprogramowanie"
+  }
+ },
+ {
+  "id": "inv_023",
+  "ocr_file": "data/ocr/inv_023.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/05/0023",
+   "issue_date": "2026-05-28",
+   "sale_date": "2026-05-25",
+   "due_date": "2026-06-11",
+   "seller_name": "BiuroMax S.A.",
+   "seller_nip": "5252248481",
+   "seller_address": "al. Handlowa 88, 00-950 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Wynajem powierzchni biurowej",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 5466.37,
+     "vat_rate": 0.23,
+     "net": 5466.37,
+     "vat": 1257.27,
+     "gross": 6723.64
+    },
+    {
+     "description": "Wynajem powierzchni biurowej",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 4814.54,
+     "vat_rate": 0.23,
+     "net": 4814.54,
+     "vat": 1107.34,
+     "gross": 5921.88
+    }
+   ],
+   "total_net": 10280.91,
+   "total_vat": 2364.61,
+   "total_gross": 12645.52,
+   "payment_method": "Gotówka",
+   "category": "Wynajem i media"
+  }
+ },
+ {
+  "id": "inv_024",
+  "ocr_file": "data/ocr/inv_024.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/03/0024",
+   "issue_date": "2026-03-06",
+   "sale_date": "2026-03-06",
+   "due_date": "2026-04-05",
+   "seller_name": "Kancelaria Nowak i Wspólnicy",
+   "seller_nip": "5261048824",
+   "seller_address": "ul. Prawna 15, 00-020 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 83.95,
+     "vat_rate": 0.23,
+     "net": 83.95,
+     "vat": 19.31,
+     "gross": 103.26
+    }
+   ],
+   "total_net": 83.95,
+   "total_vat": 19.31,
+   "total_gross": 103.26,
+   "payment_method": "Karta",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_025",
+  "ocr_file": "data/ocr/inv_025.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/02/0025",
+   "issue_date": "2026-02-08",
+   "sale_date": "2026-02-08",
+   "due_date": "2026-02-22",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938475",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Projekt graficzny",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 185.08,
+     "vat_rate": 0.23,
+     "net": 185.08,
+     "vat": 42.57,
+     "gross": 227.65
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 160.56,
+     "vat_rate": 0.23,
+     "net": 160.56,
+     "vat": 36.93,
+     "gross": 197.49
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 3.0,
+     "unit": "godz.",
+     "unit_price_net": 126.43,
+     "vat_rate": 0.23,
+     "net": 379.29,
+     "vat": 87.24,
+     "gross": 466.53
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 2692.6,
+     "vat_rate": 0.23,
+     "net": 2692.6,
+     "vat": 619.3,
+     "gross": 3311.9
+    }
+   ],
+   "total_net": 3417.53,
+   "total_vat": 786.04,
+   "total_gross": 4203.57,
+   "payment_method": "Gotówka",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_026",
+  "ocr_file": "data/ocr/inv_026.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/01/0026",
+   "issue_date": "2026-01-04",
+   "sale_date": "2026-01-01",
+   "due_date": "2026-01-25",
+   "seller_name": "PetroTrans Sp. z o.o.",
+   "seller_nip": "5832917645",
+   "seller_address": "ul. Paliwowa 3, 80-200 Gdańsk",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Projekt graficzny",
+     "quantity": 3.0,
+     "unit": "godz.",
+     "unit_price_net": 198.27,
+     "vat_rate": 0.23,
+     "net": 594.81,
+     "vat": 136.81,
+     "gross": 731.62
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 2.0,
+     "unit": "usł.",
+     "unit_price_net": 2748.76,
+     "vat_rate": 0.23,
+     "net": 5497.52,
+     "vat": 1264.43,
+     "gross": 6761.95
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 610.97,
+     "vat_rate": 0.23,
+     "net": 610.97,
+     "vat": 140.52,
+     "gross": 751.49
+    }
+   ],
+   "total_net": 6703.3,
+   "total_vat": 1541.76,
+   "total_gross": 8245.06,
+   "payment_method": "Karta",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_027",
+  "ocr_file": "data/ocr/inv_027.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/03/0027",
+   "issue_date": "2026-03-14",
+   "sale_date": "2026-03-14",
+   "due_date": "2026-04-04",
+   "seller_name": "SoftForge Sp. z o.o.",
+   "seller_nip": "6772345191",
+   "seller_address": "ul. Krzemowa 12, 30-001 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 80.57,
+     "vat_rate": 0.23,
+     "net": 80.57,
+     "vat": 18.53,
+     "gross": 99.1
+    },
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 108.29,
+     "vat_rate": 0.23,
+     "net": 108.29,
+     "vat": 24.91,
+     "gross": 133.2
+    },
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 75.27,
+     "vat_rate": 0.23,
+     "net": 225.81,
+     "vat": 51.94,
+     "gross": 277.75
+    }
+   ],
+   "total_net": 414.67,
+   "total_vat": 95.38,
+   "total_gross": 510.05,
+   "payment_method": "Karta",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_028",
+  "ocr_file": "data/ocr/inv_028.txt",
+  "expected_anomaly": "layout",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "2026-44737",
+   "issue_date": "2026-05-19",
+   "sale_date": "2026-05-17",
+   "due_date": "2026-06-18",
+   "seller_name": "BiuroMax S.A.",
+   "seller_nip": "5252248481",
+   "seller_address": "al. Handlowa 88, 00-950 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Przewóz przesyłki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 24.46,
+     "vat_rate": 0.23,
+     "net": 24.46,
+     "vat": 5.63,
+     "gross": 30.09
+    }
+   ],
+   "total_net": 24.46,
+   "total_vat": 5.63,
+   "total_gross": 30.09,
+   "payment_method": "Gotówka",
+   "category": "Paliwo i transport"
+  }
+ },
+ {
+  "id": "inv_029",
+  "ocr_file": "data/ocr/inv_029.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/04/0029",
+   "issue_date": "2026-04-22",
+   "sale_date": "2026-04-21",
+   "due_date": "2026-05-22",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Krzesło biurowe",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 555.41,
+     "vat_rate": 0.23,
+     "net": 555.41,
+     "vat": 127.74,
+     "gross": 683.15
+    },
+    {
+     "description": "Krzesło biurowe",
+     "quantity": 3.0,
+     "unit": "szt.",
+     "unit_price_net": 601.67,
+     "vat_rate": 0.23,
+     "net": 1805.01,
+     "vat": 415.15,
+     "gross": 2220.16
+    }
+   ],
+   "total_net": 2360.42,
+   "total_vat": 542.89,
+   "total_gross": 2903.31,
+   "payment_method": "Przelew",
+   "category": "Sprzęt i wyposażenie"
+  }
+ },
+ {
+  "id": "inv_030",
+  "ocr_file": "data/ocr/inv_030.txt",
+  "expected_anomaly": "layout",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "2026-54375",
+   "issue_date": "2026-02-05",
+   "sale_date": "2026-02-05",
+   "due_date": "2026-02-12",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938475",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 161.97,
+     "vat_rate": 0.23,
+     "net": 485.91,
+     "vat": 111.76,
+     "gross": 597.67
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 73.16,
+     "vat_rate": 0.23,
+     "net": 146.32,
+     "vat": 33.65,
+     "gross": 179.97
+    }
+   ],
+   "total_net": 632.23,
+   "total_vat": 145.41,
+   "total_gross": 777.64,
+   "payment_method": "Przelew",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_031",
+  "ocr_file": "data/ocr/inv_031.txt",
+  "expected_anomaly": "duplicate",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/01/0004",
+   "issue_date": "2026-04-08",
+   "sale_date": "2026-04-07",
+   "due_date": "2026-04-15",
+   "seller_name": "Kancelaria Nowak i Wspólnicy",
+   "seller_nip": "5261048824",
+   "seller_address": "ul. Prawna 15, 00-020 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Monitor 27\"",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 858.3,
+     "vat_rate": 0.23,
+     "net": 858.3,
+     "vat": 197.41,
+     "gross": 1055.71
+    }
+   ],
+   "total_net": 858.3,
+   "total_vat": 197.41,
+   "total_gross": 1055.71,
+   "payment_method": "Karta",
+   "category": "Sprzęt i wyposażenie"
+  }
+ },
+ {
+  "id": "inv_032",
+  "ocr_file": "data/ocr/inv_032.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/01/0032",
+   "issue_date": "2026-01-15",
+   "sale_date": "2026-01-14",
+   "due_date": "2026-02-14",
+   "seller_name": "SoftForge Sp. z o.o.",
+   "seller_nip": "6772345191",
+   "seller_address": "ul. Krzemowa 12, 30-001 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 157.8,
+     "vat_rate": 0.23,
+     "net": 473.4,
+     "vat": 108.88,
+     "gross": 582.28
+    },
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 113.51,
+     "vat_rate": 0.23,
+     "net": 340.53,
+     "vat": 78.32,
+     "gross": 418.85
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 76.01,
+     "vat_rate": 0.23,
+     "net": 152.02,
+     "vat": 34.96,
+     "gross": 186.98
+    }
+   ],
+   "total_net": 965.95,
+   "total_vat": 222.16,
+   "total_gross": 1188.11,
+   "payment_method": "Przelew",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_033",
+  "ocr_file": "data/ocr/inv_033.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0033",
+   "issue_date": "2026-06-08",
+   "sale_date": "2026-06-06",
+   "due_date": "2026-07-08",
+   "seller_name": "Kreatywni Sp. z o.o.",
+   "seller_nip": "7792483011",
+   "seller_address": "ul. Reklamowa 7, 61-001 Poznań",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Krzesło biurowe",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 511.04,
+     "vat_rate": 0.23,
+     "net": 511.04,
+     "vat": 117.54,
+     "gross": 628.58
+    }
+   ],
+   "total_net": 511.04,
+   "total_vat": 117.54,
+   "total_gross": 628.58,
+   "payment_method": "Gotówka",
+   "category": "Sprzęt i wyposażenie"
+  }
+ },
+ {
+  "id": "inv_034",
+  "ocr_file": "data/ocr/inv_034.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/02/0034",
+   "issue_date": "2026-02-05",
+   "sale_date": "2026-02-04",
+   "due_date": "2026-03-07",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938475",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Zestaw długopisów",
+     "quantity": 1.0,
+     "unit": "opak.",
+     "unit_price_net": 9.09,
+     "vat_rate": 0.23,
+     "net": 9.09,
+     "vat": 2.09,
+     "gross": 11.18
+    },
+    {
+     "description": "Toner do drukarki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 261.08,
+     "vat_rate": 0.23,
+     "net": 261.08,
+     "vat": 60.05,
+     "gross": 321.13
+    }
+   ],
+   "total_net": 270.17,
+   "total_vat": 62.14,
+   "total_gross": 332.31,
+   "payment_method": "Karta",
+   "category": "Materiały biurowe"
+  }
+ },
+ {
+  "id": "inv_035",
+  "ocr_file": "data/ocr/inv_035.txt",
+  "expected_anomaly": "vat_inactive",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/04/0035",
+   "issue_date": "2026-04-13",
+   "sale_date": "2026-04-13",
+   "due_date": "2026-05-13",
+   "seller_name": "Handel-Widmo Sp. z o.o.",
+   "seller_nip": "1181934533",
+   "seller_address": "ul. Nieznana 1, 00-001 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 63.89,
+     "vat_rate": 0.23,
+     "net": 63.89,
+     "vat": 14.69,
+     "gross": 78.58
+    },
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 124.59,
+     "vat_rate": 0.23,
+     "net": 249.18,
+     "vat": 57.31,
+     "gross": 306.49
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 57.55,
+     "vat_rate": 0.23,
+     "net": 115.1,
+     "vat": 26.47,
+     "gross": 141.57
+    },
+    {
+     "description": "Internet światłowodowy",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 63.48,
+     "vat_rate": 0.23,
+     "net": 126.96,
+     "vat": 29.2,
+     "gross": 156.16
+    }
+   ],
+   "total_net": 555.13,
+   "total_vat": 127.67,
+   "total_gross": 682.8,
+   "payment_method": "Gotówka",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_036",
+  "ocr_file": "data/ocr/inv_036.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/04/0036",
+   "issue_date": "2026-04-05",
+   "sale_date": "2026-04-05",
+   "due_date": "2026-05-05",
+   "seller_name": "Kancelaria Nowak i Wspólnicy",
+   "seller_nip": "5261048824",
+   "seller_address": "ul. Prawna 15, 00-020 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Paliwo Diesel",
+     "quantity": 47.0,
+     "unit": "l",
+     "unit_price_net": 5.95,
+     "vat_rate": 0.23,
+     "net": 279.65,
+     "vat": 64.32,
+     "gross": 343.97
+    }
+   ],
+   "total_net": 279.65,
+   "total_vat": 64.32,
+   "total_gross": 343.97,
+   "payment_method": "Karta",
+   "category": "Paliwo i transport"
+  }
+ },
+ {
+  "id": "inv_037",
+  "ocr_file": "data/ocr/inv_037.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/03/0037",
+   "issue_date": "2026-03-13",
+   "sale_date": "2026-03-11",
+   "due_date": "2026-03-27",
+   "seller_name": "PetroTrans Sp. z o.o.",
+   "seller_nip": "5832917645",
+   "seller_address": "ul. Paliwowa 3, 80-200 Gdańsk",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Usługa wdrożeniowa",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 272.25,
+     "vat_rate": 0.23,
+     "net": 272.25,
+     "vat": 62.62,
+     "gross": 334.87
+    },
+    {
+     "description": "Usługa wdrożeniowa",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 270.4,
+     "vat_rate": 0.23,
+     "net": 270.4,
+     "vat": 62.19,
+     "gross": 332.59
+    },
+    {
+     "description": "Usługa wdrożeniowa",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 286.98,
+     "vat_rate": 0.23,
+     "net": 286.98,
+     "vat": 66.01,
+     "gross": 352.99
+    },
+    {
+     "description": "Usługa wdrożeniowa",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 269.8,
+     "vat_rate": 0.23,
+     "net": 269.8,
+     "vat": 62.05,
+     "gross": 331.85
+    }
+   ],
+   "total_net": 1099.43,
+   "total_vat": 252.87,
+   "total_gross": 1352.3,
+   "payment_method": "Przelew",
+   "category": "Usługi IT i oprogramowanie"
+  }
+ },
+ {
+  "id": "inv_038",
+  "ocr_file": "data/ocr/inv_038.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0038",
+   "issue_date": "2026-06-03",
+   "sale_date": "2026-06-03",
+   "due_date": "2026-06-10",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938475",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 89.71,
+     "vat_rate": 0.23,
+     "net": 89.71,
+     "vat": 20.63,
+     "gross": 110.34
+    },
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 77.88,
+     "vat_rate": 0.23,
+     "net": 77.88,
+     "vat": 17.91,
+     "gross": 95.79
+    }
+   ],
+   "total_net": 167.59,
+   "total_vat": 38.54,
+   "total_gross": 206.13,
+   "payment_method": "Przelew",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_039",
+  "ocr_file": "data/ocr/inv_039.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0039",
+   "issue_date": "2026-06-09",
+   "sale_date": "2026-06-07",
+   "due_date": "2026-06-23",
+   "seller_name": "NetCom Polska Sp. z o.o.",
+   "seller_nip": "1981726351",
+   "seller_address": "ul. Światłowodowa 21, 50-100 Wrocław",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Laptop biznesowy",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 3199.97,
+     "vat_rate": 0.23,
+     "net": 3199.97,
+     "vat": 735.99,
+     "gross": 3935.96
+    }
+   ],
+   "total_net": 3199.97,
+   "total_vat": 735.99,
+   "total_gross": 3935.96,
+   "payment_method": "Przelew",
+   "category": "Sprzęt i wyposażenie"
+  }
+ },
+ {
+  "id": "inv_040",
+  "ocr_file": "data/ocr/inv_040.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/04/0040",
+   "issue_date": "2026-04-23",
+   "sale_date": "2026-04-22",
+   "due_date": "2026-04-30",
+   "seller_name": "Kreatywni Sp. z o.o.",
+   "seller_nip": "7792483011",
+   "seller_address": "ul. Reklamowa 7, 61-001 Poznań",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Obsługa księgowa (mies.)",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 1335.32,
+     "vat_rate": 0.23,
+     "net": 1335.32,
+     "vat": 307.12,
+     "gross": 1642.44
+    },
+    {
+     "description": "Obsługa księgowa (mies.)",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 1260.9,
+     "vat_rate": 0.23,
+     "net": 3782.7,
+     "vat": 870.02,
+     "gross": 4652.72
+    }
+   ],
+   "total_net": 5118.02,
+   "total_vat": 1177.14,
+   "total_gross": 6295.16,
+   "payment_method": "Gotówka",
+   "category": "Usługi księgowe i prawne"
+  }
+ },
+ {
+  "id": "inv_041",
+  "ocr_file": "data/ocr/inv_041.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/01/0041",
+   "issue_date": "2026-01-17",
+   "sale_date": "2026-01-15",
+   "due_date": "2026-01-24",
+   "seller_name": "Kancelaria Nowak i Wspólnicy",
+   "seller_nip": "5261048824",
+   "seller_address": "ul. Prawna 15, 00-020 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Energia elektryczna",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 503.47,
+     "vat_rate": 0.23,
+     "net": 503.47,
+     "vat": 115.8,
+     "gross": 619.27
+    },
+    {
+     "description": "Energia elektryczna",
+     "quantity": 2.0,
+     "unit": "usł.",
+     "unit_price_net": 695.12,
+     "vat_rate": 0.23,
+     "net": 1390.24,
+     "vat": 319.76,
+     "gross": 1710.0
+    },
+    {
+     "description": "Energia elektryczna",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 713.66,
+     "vat_rate": 0.23,
+     "net": 713.66,
+     "vat": 164.14,
+     "gross": 877.8
+    },
+    {
+     "description": "Energia elektryczna",
+     "quantity": 3.0,
+     "unit": "usł.",
+     "unit_price_net": 765.74,
+     "vat_rate": 0.23,
+     "net": 2297.22,
+     "vat": 528.36,
+     "gross": 2825.58
+    }
+   ],
+   "total_net": 4904.59,
+   "total_vat": 1128.06,
+   "total_gross": 6032.65,
+   "payment_method": "Karta",
+   "category": "Wynajem i media"
+  }
+ },
+ {
+  "id": "inv_042",
+  "ocr_file": "data/ocr/inv_042.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0042",
+   "issue_date": "2026-06-19",
+   "sale_date": "2026-06-17",
+   "due_date": "2026-07-10",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Obsługa księgowa (mies.)",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 1369.79,
+     "vat_rate": 0.23,
+     "net": 1369.79,
+     "vat": 315.05,
+     "gross": 1684.84
+    },
+    {
+     "description": "Obsługa księgowa (mies.)",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 1026.83,
+     "vat_rate": 0.23,
+     "net": 2053.66,
+     "vat": 472.34,
+     "gross": 2526.0
+    }
+   ],
+   "total_net": 3423.45,
+   "total_vat": 787.39,
+   "total_gross": 4210.84,
+   "payment_method": "Karta",
+   "category": "Usługi księgowe i prawne"
+  }
+ },
+ {
+  "id": "inv_043",
+  "ocr_file": "data/ocr/inv_043.txt",
+  "expected_anomaly": "bad_nip",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/04/0043",
+   "issue_date": "2026-04-28",
+   "sale_date": "2026-04-26",
+   "due_date": "2026-05-12",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938476",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Licencja oprogramowania (mies.)",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 494.87,
+     "vat_rate": 0.23,
+     "net": 494.87,
+     "vat": 113.82,
+     "gross": 608.69
+    },
+    {
+     "description": "Usługa wdrożeniowa",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 296.06,
+     "vat_rate": 0.23,
+     "net": 296.06,
+     "vat": 68.09,
+     "gross": 364.15
+    },
+    {
+     "description": "Hosting serwera VPS",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 156.72,
+     "vat_rate": 0.23,
+     "net": 156.72,
+     "vat": 36.05,
+     "gross": 192.77
+    },
+    {
+     "description": "Hosting serwera VPS",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 57.98,
+     "vat_rate": 0.23,
+     "net": 57.98,
+     "vat": 13.34,
+     "gross": 71.32
+    }
+   ],
+   "total_net": 1005.63,
+   "total_vat": 231.3,
+   "total_gross": 1236.93,
+   "payment_method": "Karta",
+   "category": "Usługi IT i oprogramowanie"
+  }
+ },
+ {
+  "id": "inv_044",
+  "ocr_file": "data/ocr/inv_044.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0044",
+   "issue_date": "2026-06-16",
+   "sale_date": "2026-06-13",
+   "due_date": "2026-07-16",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 57.73,
+     "vat_rate": 0.23,
+     "net": 57.73,
+     "vat": 13.28,
+     "gross": 71.01
+    }
+   ],
+   "total_net": 57.73,
+   "total_vat": 13.28,
+   "total_gross": 71.01,
+   "payment_method": "Przelew",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_045",
+  "ocr_file": "data/ocr/inv_045.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/04/0045",
+   "issue_date": "2026-04-18",
+   "sale_date": "2026-04-16",
+   "due_date": "2026-05-18",
+   "seller_name": "Kreatywni Sp. z o.o.",
+   "seller_nip": "7792483011",
+   "seller_address": "ul. Reklamowa 7, 61-001 Poznań",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Energia elektryczna",
+     "quantity": 2.0,
+     "unit": "usł.",
+     "unit_price_net": 389.64,
+     "vat_rate": 0.23,
+     "net": 779.28,
+     "vat": 179.23,
+     "gross": 958.51
+    },
+    {
+     "description": "Energia elektryczna",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 284.46,
+     "vat_rate": 0.23,
+     "net": 284.46,
+     "vat": 65.43,
+     "gross": 349.89
+    },
+    {
+     "description": "Wynajem powierzchni biurowej",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 2038.0,
+     "vat_rate": 0.23,
+     "net": 2038.0,
+     "vat": 468.74,
+     "gross": 2506.74
+    }
+   ],
+   "total_net": 3101.74,
+   "total_vat": 713.4,
+   "total_gross": 3815.14,
+   "payment_method": "Przelew",
+   "category": "Wynajem i media"
+  }
+ },
+ {
+  "id": "inv_046",
+  "ocr_file": "data/ocr/inv_046.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0046",
+   "issue_date": "2026-06-16",
+   "sale_date": "2026-06-14",
+   "due_date": "2026-07-07",
+   "seller_name": "NetCom Polska Sp. z o.o.",
+   "seller_nip": "1981726351",
+   "seller_address": "ul. Światłowodowa 21, 50-100 Wrocław",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Abonament telefoniczny",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 58.2,
+     "vat_rate": 0.23,
+     "net": 58.2,
+     "vat": 13.39,
+     "gross": 71.59
+    }
+   ],
+   "total_net": 58.2,
+   "total_vat": 13.39,
+   "total_gross": 71.59,
+   "payment_method": "Przelew",
+   "category": "Telekomunikacja"
+  }
+ },
+ {
+  "id": "inv_047",
+  "ocr_file": "data/ocr/inv_047.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0047",
+   "issue_date": "2026-06-18",
+   "sale_date": "2026-06-17",
+   "due_date": "2026-07-09",
+   "seller_name": "Kreatywni Sp. z o.o.",
+   "seller_nip": "7792483011",
+   "seller_address": "ul. Reklamowa 7, 61-001 Poznań",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Licencja oprogramowania (mies.)",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 231.91,
+     "vat_rate": 0.23,
+     "net": 695.73,
+     "vat": 160.02,
+     "gross": 855.75
+    }
+   ],
+   "total_net": 695.73,
+   "total_vat": 160.02,
+   "total_gross": 855.75,
+   "payment_method": "Przelew",
+   "category": "Usługi IT i oprogramowanie"
+  }
+ },
+ {
+  "id": "inv_048",
+  "ocr_file": "data/ocr/inv_048.txt",
+  "expected_anomaly": "outlier",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/01/0048",
+   "issue_date": "2026-01-19",
+   "sale_date": "2026-01-17",
+   "due_date": "2026-02-18",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Toner do drukarki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 211162.97,
+     "vat_rate": 0.23,
+     "net": 211162.97,
+     "vat": 48567.48,
+     "gross": 259730.45
+    },
+    {
+     "description": "Papier ksero A4 (ryza)",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 29.29,
+     "vat_rate": 0.23,
+     "net": 29.29,
+     "vat": 6.74,
+     "gross": 36.03
+    },
+    {
+     "description": "Toner do drukarki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 333.75,
+     "vat_rate": 0.23,
+     "net": 333.75,
+     "vat": 76.76,
+     "gross": 410.51
+    },
+    {
+     "description": "Toner do drukarki",
+     "quantity": 2.0,
+     "unit": "szt.",
+     "unit_price_net": 139.26,
+     "vat_rate": 0.23,
+     "net": 278.52,
+     "vat": 64.06,
+     "gross": 342.58
+    }
+   ],
+   "total_net": 211804.53,
+   "total_vat": 48715.04,
+   "total_gross": 260519.57,
+   "payment_method": "Przelew",
+   "category": "Materiały biurowe"
+  }
+ },
+ {
+  "id": "inv_049",
+  "ocr_file": "data/ocr/inv_049.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/05/0049",
+   "issue_date": "2026-05-10",
+   "sale_date": "2026-05-10",
+   "due_date": "2026-05-24",
+   "seller_name": "PetroTrans Sp. z o.o.",
+   "seller_nip": "5832917645",
+   "seller_address": "ul. Paliwowa 3, 80-200 Gdańsk",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Przewóz przesyłki",
+     "quantity": 3.0,
+     "unit": "szt.",
+     "unit_price_net": 41.83,
+     "vat_rate": 0.23,
+     "net": 125.49,
+     "vat": 28.86,
+     "gross": 154.35
+    }
+   ],
+   "total_net": 125.49,
+   "total_vat": 28.86,
+   "total_gross": 154.35,
+   "payment_method": "Przelew",
+   "category": "Paliwo i transport"
+  }
+ },
+ {
+  "id": "inv_050",
+  "ocr_file": "data/ocr/inv_050.txt",
+  "expected_anomaly": "vat_inactive",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/04/0050",
+   "issue_date": "2026-04-10",
+   "sale_date": "2026-04-07",
+   "due_date": "2026-05-01",
+   "seller_name": "Handel-Widmo Sp. z o.o.",
+   "seller_nip": "1181934533",
+   "seller_address": "ul. Nieznana 1, 00-001 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Krzesło biurowe",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 1152.83,
+     "vat_rate": 0.23,
+     "net": 1152.83,
+     "vat": 265.15,
+     "gross": 1417.98
+    }
+   ],
+   "total_net": 1152.83,
+   "total_vat": 265.15,
+   "total_gross": 1417.98,
+   "payment_method": "Przelew",
+   "category": "Sprzęt i wyposażenie"
+  }
+ },
+ {
+  "id": "inv_051",
+  "ocr_file": "data/ocr/inv_051.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0051",
+   "issue_date": "2026-06-03",
+   "sale_date": "2026-06-02",
+   "due_date": "2026-06-17",
+   "seller_name": "NetCom Polska Sp. z o.o.",
+   "seller_nip": "1981726351",
+   "seller_address": "ul. Światłowodowa 21, 50-100 Wrocław",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 506.69,
+     "vat_rate": 0.23,
+     "net": 506.69,
+     "vat": 116.54,
+     "gross": 623.23
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 3.0,
+     "unit": "godz.",
+     "unit_price_net": 141.69,
+     "vat_rate": 0.23,
+     "net": 425.07,
+     "vat": 97.77,
+     "gross": 522.84
+    }
+   ],
+   "total_net": 931.76,
+   "total_vat": 214.31,
+   "total_gross": 1146.07,
+   "payment_method": "Przelew",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_052",
+  "ocr_file": "data/ocr/inv_052.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/06/0052",
+   "issue_date": "2026-06-10",
+   "sale_date": "2026-06-07",
+   "due_date": "2026-06-17",
+   "seller_name": "NetCom Polska Sp. z o.o.",
+   "seller_nip": "1981726351",
+   "seller_address": "ul. Światłowodowa 21, 50-100 Wrocław",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Projekt graficzny",
+     "quantity": 3.0,
+     "unit": "godz.",
+     "unit_price_net": 162.73,
+     "vat_rate": 0.23,
+     "net": 488.19,
+     "vat": 112.28,
+     "gross": 600.47
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 2.0,
+     "unit": "usł.",
+     "unit_price_net": 786.94,
+     "vat_rate": 0.23,
+     "net": 1573.88,
+     "vat": 361.99,
+     "gross": 1935.87
+    }
+   ],
+   "total_net": 2062.07,
+   "total_vat": 474.27,
+   "total_gross": 2536.34,
+   "payment_method": "Przelew",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_053",
+  "ocr_file": "data/ocr/inv_053.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/02/0053",
+   "issue_date": "2026-02-03",
+   "sale_date": "2026-02-03",
+   "due_date": "2026-02-17",
+   "seller_name": "PetroTrans Sp. z o.o.",
+   "seller_nip": "5832917645",
+   "seller_address": "ul. Paliwowa 3, 80-200 Gdańsk",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Projekt graficzny",
+     "quantity": 2.0,
+     "unit": "godz.",
+     "unit_price_net": 103.68,
+     "vat_rate": 0.23,
+     "net": 207.36,
+     "vat": 47.69,
+     "gross": 255.05
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 2.0,
+     "unit": "godz.",
+     "unit_price_net": 193.69,
+     "vat_rate": 0.23,
+     "net": 387.38,
+     "vat": 89.1,
+     "gross": 476.48
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 2.0,
+     "unit": "godz.",
+     "unit_price_net": 98.85,
+     "vat_rate": 0.23,
+     "net": 197.7,
+     "vat": 45.47,
+     "gross": 243.17
+    }
+   ],
+   "total_net": 792.44,
+   "total_vat": 182.26,
+   "total_gross": 974.7,
+   "payment_method": "Przelew",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_054",
+  "ocr_file": "data/ocr/inv_054.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/05/0054",
+   "issue_date": "2026-05-09",
+   "sale_date": "2026-05-09",
+   "due_date": "2026-05-16",
+   "seller_name": "Kancelaria Nowak i Wspólnicy",
+   "seller_nip": "5261048824",
+   "seller_address": "ul. Prawna 15, 00-020 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Wynajem powierzchni biurowej",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 4093.11,
+     "vat_rate": 0.23,
+     "net": 4093.11,
+     "vat": 941.42,
+     "gross": 5034.53
+    },
+    {
+     "description": "Wynajem powierzchni biurowej",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 3835.34,
+     "vat_rate": 0.23,
+     "net": 7670.68,
+     "vat": 1764.26,
+     "gross": 9434.94
+    }
+   ],
+   "total_net": 11763.79,
+   "total_vat": 2705.68,
+   "total_gross": 14469.47,
+   "payment_method": "Karta",
+   "category": "Wynajem i media"
+  }
+ },
+ {
+  "id": "inv_055",
+  "ocr_file": "data/ocr/inv_055.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/05/0055",
+   "issue_date": "2026-05-14",
+   "sale_date": "2026-05-11",
+   "due_date": "2026-05-21",
+   "seller_name": "Kreatywni Sp. z o.o.",
+   "seller_nip": "7792483011",
+   "seller_address": "ul. Reklamowa 7, 61-001 Poznań",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Przewóz przesyłki",
+     "quantity": 2.0,
+     "unit": "szt.",
+     "unit_price_net": 30.0,
+     "vat_rate": 0.23,
+     "net": 60.0,
+     "vat": 13.8,
+     "gross": 73.8
+    },
+    {
+     "description": "Paliwo Diesel",
+     "quantity": 30.0,
+     "unit": "l",
+     "unit_price_net": 6.16,
+     "vat_rate": 0.23,
+     "net": 184.8,
+     "vat": 42.5,
+     "gross": 227.3
+    },
+    {
+     "description": "Przewóz przesyłki",
+     "quantity": 1.0,
+     "unit": "szt.",
+     "unit_price_net": 44.82,
+     "vat_rate": 0.23,
+     "net": 44.82,
+     "vat": 10.31,
+     "gross": 55.13
+    },
+    {
+     "description": "Przewóz przesyłki",
+     "quantity": 3.0,
+     "unit": "szt.",
+     "unit_price_net": 16.65,
+     "vat_rate": 0.23,
+     "net": 49.95,
+     "vat": 11.49,
+     "gross": 61.44
+    }
+   ],
+   "total_net": 339.57,
+   "total_vat": 78.1,
+   "total_gross": 417.67,
+   "payment_method": "Przelew",
+   "category": "Paliwo i transport"
+  }
+ },
+ {
+  "id": "inv_056",
+  "ocr_file": "data/ocr/inv_056.txt",
+  "expected_anomaly": "wrong_vat",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/03/0056",
+   "issue_date": "2026-03-04",
+   "sale_date": "2026-03-01",
+   "due_date": "2026-03-11",
+   "seller_name": "Nieruchomości Centrum Sp. z o.o.",
+   "seller_nip": "6762938475",
+   "seller_address": "ul. Rynek 1, 31-042 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Projekt graficzny",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 110.63,
+     "vat_rate": 0.08,
+     "net": 110.63,
+     "vat": 8.85,
+     "gross": 119.48
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 3.0,
+     "unit": "godz.",
+     "unit_price_net": 173.21,
+     "vat_rate": 0.23,
+     "net": 519.63,
+     "vat": 119.51,
+     "gross": 639.14
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 112.39,
+     "vat_rate": 0.23,
+     "net": 112.39,
+     "vat": 25.85,
+     "gross": 138.24
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 1595.29,
+     "vat_rate": 0.23,
+     "net": 1595.29,
+     "vat": 366.92,
+     "gross": 1962.21
+    }
+   ],
+   "total_net": 2337.94,
+   "total_vat": 521.13,
+   "total_gross": 2859.07,
+   "payment_method": "Karta",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_057",
+  "ocr_file": "data/ocr/inv_057.txt",
+  "expected_anomaly": "duplicate",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/03/0005",
+   "issue_date": "2026-06-20",
+   "sale_date": "2026-06-19",
+   "due_date": "2026-07-04",
+   "seller_name": "BiuroMax S.A.",
+   "seller_nip": "5252248481",
+   "seller_address": "al. Handlowa 88, 00-950 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Hosting serwera VPS",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 155.97,
+     "vat_rate": 0.23,
+     "net": 155.97,
+     "vat": 35.87,
+     "gross": 191.84
+    },
+    {
+     "description": "Licencja oprogramowania (mies.)",
+     "quantity": 1.0,
+     "unit": "mies.",
+     "unit_price_net": 595.97,
+     "vat_rate": 0.23,
+     "net": 595.97,
+     "vat": 137.07,
+     "gross": 733.04
+    },
+    {
+     "description": "Licencja oprogramowania (mies.)",
+     "quantity": 2.0,
+     "unit": "mies.",
+     "unit_price_net": 572.47,
+     "vat_rate": 0.23,
+     "net": 1144.94,
+     "vat": 263.34,
+     "gross": 1408.28
+    }
+   ],
+   "total_net": 1896.88,
+   "total_vat": 436.28,
+   "total_gross": 2333.16,
+   "payment_method": "Przelew",
+   "category": "Usługi IT i oprogramowanie"
+  }
+ },
+ {
+  "id": "inv_058",
+  "ocr_file": "data/ocr/inv_058.txt",
+  "expected_anomaly": null,
+  "difficulty": "prosta",
+  "expected_path": "auto",
+  "truth": {
+   "invoice_number": "FV/2026/05/0058",
+   "issue_date": "2026-05-23",
+   "sale_date": "2026-05-21",
+   "due_date": "2026-06-22",
+   "seller_name": "TechSprzęt S.A.",
+   "seller_nip": "6342815903",
+   "seller_address": "ul. Serwerowa 44, 40-001 Katowice",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Projekt graficzny",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 140.25,
+     "vat_rate": 0.23,
+     "net": 140.25,
+     "vat": 32.26,
+     "gross": 172.51
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 2.0,
+     "unit": "usł.",
+     "unit_price_net": 976.53,
+     "vat_rate": 0.23,
+     "net": 1953.06,
+     "vat": 449.2,
+     "gross": 2402.26
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 1190.62,
+     "vat_rate": 0.23,
+     "net": 1190.62,
+     "vat": 273.84,
+     "gross": 1464.46
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 192.77,
+     "vat_rate": 0.23,
+     "net": 192.77,
+     "vat": 44.34,
+     "gross": 237.11
+    }
+   ],
+   "total_net": 3476.7,
+   "total_vat": 799.64,
+   "total_gross": 4276.34,
+   "payment_method": "Gotówka",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_059",
+  "ocr_file": "data/ocr/inv_059.txt",
+  "expected_anomaly": "bad_nip",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/06/0059",
+   "issue_date": "2026-06-10",
+   "sale_date": "2026-06-07",
+   "due_date": "2026-06-24",
+   "seller_name": "SoftForge Sp. z o.o.",
+   "seller_nip": "6772345192",
+   "seller_address": "ul. Krzemowa 12, 30-001 Kraków",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Projekt graficzny",
+     "quantity": 1.0,
+     "unit": "godz.",
+     "unit_price_net": 126.57,
+     "vat_rate": 0.23,
+     "net": 126.57,
+     "vat": 29.11,
+     "gross": 155.68
+    },
+    {
+     "description": "Projekt graficzny",
+     "quantity": 2.0,
+     "unit": "godz.",
+     "unit_price_net": 192.61,
+     "vat_rate": 0.23,
+     "net": 385.22,
+     "vat": 88.6,
+     "gross": 473.82
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 1.0,
+     "unit": "usł.",
+     "unit_price_net": 1929.49,
+     "vat_rate": 0.23,
+     "net": 1929.49,
+     "vat": 443.78,
+     "gross": 2373.27
+    },
+    {
+     "description": "Kampania reklamowa online",
+     "quantity": 2.0,
+     "unit": "usł.",
+     "unit_price_net": 609.12,
+     "vat_rate": 0.23,
+     "net": 1218.24,
+     "vat": 280.2,
+     "gross": 1498.44
+    }
+   ],
+   "total_net": 3659.52,
+   "total_vat": 841.69,
+   "total_gross": 4501.21,
+   "payment_method": "Karta",
+   "category": "Marketing i reklama"
+  }
+ },
+ {
+  "id": "inv_060",
+  "ocr_file": "data/ocr/inv_060.txt",
+  "expected_anomaly": "outlier",
+  "difficulty": "sporna",
+  "expected_path": "eskalacja",
+  "truth": {
+   "invoice_number": "FV/2026/06/0060",
+   "issue_date": "2026-06-26",
+   "sale_date": "2026-06-25",
+   "due_date": "2026-07-26",
+   "seller_name": "Kancelaria Nowak i Wspólnicy",
+   "seller_nip": "5261048824",
+   "seller_address": "ul. Prawna 15, 00-020 Warszawa",
+   "buyer_name": "GK Analytics Sp. z o.o.",
+   "buyer_nip": "6751234569",
+   "buyer_address": "ul. Danych 10, 30-500 Kraków",
+   "currency": "PLN",
+   "items": [
+    {
+     "description": "Obsługa księgowa (mies.)",
+     "quantity": 3.0,
+     "unit": "mies.",
+     "unit_price_net": 199874.17,
+     "vat_rate": 0.23,
+     "net": 599622.51,
+     "vat": 137913.18,
+     "gross": 737535.69
+    }
+   ],
+   "total_net": 599622.51,
+   "total_vat": 137913.18,
+   "total_gross": 737535.69,
+   "payment_method": "Gotówka",
+   "category": "Usługi księgowe i prawne"
+  }
+ }
+]
