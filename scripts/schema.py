@@ -60,7 +60,7 @@ class Extraction(BaseModel):
             raise ValueError("data w formacie RRRR-MM-DD")
         return v
 
-    @field_validator("numer_konta", "wystawil", mode="before")
+    @field_validator("numer_konta", "wystawil", "data_zaplaty", mode="before")
     @classmethod
     def pusty_string_to_none(cls, v: object) -> object:
         # modele czesto zwracaja "" albo "brak" zamiast null — normalizujemy,

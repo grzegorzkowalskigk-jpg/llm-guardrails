@@ -1,0 +1,17 @@
+{
+ "qwen2.5:1.5b|naive": {
+  "n": 8,
+  "trap_fills": 4,
+  "docs_with_halluc": 4,
+  "caught": {
+   "l1": 0,
+   "l2": 0,
+   "l3": 4
+  },
+  "residue": [],
+  "residue_n": 0,
+  "real_acc": 100.0,
+  "false_alarms": [],
+  "false_alarms_n": 0
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "model": "qwen2.5:1.5b",
+ "variant": "naive",
+ "results": [
+  {
+   "id": "inv_001",
+   "got": {
+    "invoice_number": "FV/2026/06/0001",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 346.11,
+    "total_vat": 79.61,
+    "total_gross": 425.72,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 18.07,
+    "tokens_in": 603,
+    "tokens_out": 133
+   }
+  },
+  {
+   "id": "inv_002",
+   "got": {
+    "invoice_number": "FV/2026/02/0002",
+    "seller_nip": "6772345191",
+    "buyer_nip": "6751234569",
+    "total_net": 381.05,
+    "total_vat": 87.65,
+    "total_gross": 478.7,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 25.16,
+    "tokens_in": 715,
+    "tokens_out": 141
+   }
+  },
+  {
+   "id": "inv_003",
+   "got": {
+    "invoice_number": "FV/2026/05/0003",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 586.43,
+    "total_vat": 134.88,
+    "total_gross": 721.31,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 18.49,
+    "tokens_in": 559,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_004",
+   "got": {
+    "invoice_number": "FV/2026/01/0004",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 22.56,
+    "total_vat": 5.19,
+    "total_gross": 27.75,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 20.19,
+    "tokens_in": 553,
+    "tokens_out": 140
+   }
+  },
+  {
+   "id": "inv_005",
+   "got": {
+    "invoice_number": "FV/2026/03/0005",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 356.4,
+    "total_vat": 81.97,
+    "total_gross": 438.37,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 16.19,
+    "tokens_in": 552,
+    "tokens_out": 133
+   }
+  },
+  {
+   "id": "inv_006",
+   "got": {
+    "invoice_number": "FV/2026/03/0006",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 1285.55,
+    "total_vat": 295.68,
+    "total_gross": 1581.23,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 16.99,
+    "tokens_in": 562,
+    "tokens_out": 136
+   }
+  },
+  {
+   "id": "inv_007",
+   "got": {
+    "invoice_number": "FV/2026/02/0007",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 1033.46,
+    "total_vat": 237.7,
+    "total_gross": 1271.16,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 21.01,
+    "tokens_in": 719,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_008",
+   "got": {
+    "invoice_number": "FV/2026/01/0008",
+    "seller_nip": "5832917645",
+    "buyer_nip": "6751234569",
+    "total_net": 3284.38,
+    "total_vat": 755.41,
+    "total_gross": 4129.79,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 17.62,
+    "tokens_in": 614,
+    "tokens_out": 136
+   }
+  },
+  {
+   "id": "inv_009",
+   "got": {
+    "invoice_number": "FV/2026/05/0009",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 1659.97,
+    "total_vat": 381.8,
+    "total_gross": 2041.77,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "N/A",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 18.09,
+    "tokens_in": 662,
+    "tokens_out": 139
+   }
+  },
+  {
+   "id": "inv_010",
+   "got": {
+    "invoice_number": "FV/2026/02/0010",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 509.43,
+    "total_vat": 117.17,
+    "total_gross": 626.6,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 17.88,
+    "tokens_in": 655,
+    "tokens_out": 133
+   }
+  }
+ ]
+}
