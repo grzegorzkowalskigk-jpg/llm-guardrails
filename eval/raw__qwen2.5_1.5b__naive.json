@@ -201,6 +201,46 @@
     "tokens_in": 655,
     "tokens_out": 133
    }
+  },
+  {
+   "id": "inv_011",
+   "got": {
+    "invoice_number": "FV/2026/05/0011",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 315.32,
+    "total_vat": 70.65,
+    "total_gross": 385.97,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 19.92,
+    "tokens_in": 704,
+    "tokens_out": 140
+   }
+  },
+  {
+   "id": "inv_012",
+   "got": {
+    "invoice_number": "FV/2026/02/0012",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 91.07,
+    "total_vat": 20.95,
+    "total_gross": 112.02,
+    "numer_konta": "",
+    "rabat": 0,
+    "wystawil": "",
+    "data_zaplaty": ""
+   },
+   "metrics": {
+    "seconds": 18.56,
+    "tokens_in": 600,
+    "tokens_out": 132
+   }
   }
  ]
 }
