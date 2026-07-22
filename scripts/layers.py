@@ -134,6 +134,14 @@ def layer3_rules(ext: Extraction, ocr: str) -> list[str]:
     return issues
 
 
+def issue_class(issue: str) -> str:
+    """Rozdziela winę: 'defect' = wada samego dokumentu (model wiernie ją przepisał,
+    retry bezsensowny → człowiek), 'model' = błąd modelu (halucynacja/rola/format,
+    retry ma prawo zadziałać). L3/spojnosc (arytmetyka, suma kontrolna) dotyczy
+    wartości ugruntowanych w źródle — to defekt dokumentu, nie modelu."""
+    return "defect" if issue.startswith("L3/spojnosc") else "model"
+
+
 def run_layers(raw: dict, ocr: str) -> dict:
     """Pełna bariera: zwraca ekstrakcję (lub None) + problemy per warstwa."""
     ext, l1 = layer1_schema(raw)
