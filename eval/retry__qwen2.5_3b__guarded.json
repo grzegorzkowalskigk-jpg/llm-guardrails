@@ -1,0 +1,189 @@
+{
+ "model": "qwen2.5:3b",
+ "variant": "guarded",
+ "defect_only": 3,
+ "results": [
+  {
+   "id": "inv_020",
+   "issues_before": [
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0020",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 410.33,
+    "total_vat": 94.38,
+    "total_gross": 504.71,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": "2026-04-09"
+   },
+   "issues_after": [
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 38.18,
+    "tokens_in": 845,
+    "tokens_out": 133
+   }
+  },
+  {
+   "id": "inv_021",
+   "issues_before": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0021",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 6783.88,
+    "total_vat": 1560.29,
+    "total_gross": 8344.17,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 39.74,
+    "tokens_in": 868,
+    "tokens_out": 136
+   }
+  },
+  {
+   "id": "inv_022",
+   "issues_before": [
+    "L2/grounding: invoice_number 'FV/2026/0022' nie wystepuje w dokumencie"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/0022",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 642.83,
+    "total_vat": 147.86,
+    "total_gross": 790.69,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L2/grounding: invoice_number 'FV/2026/0022' nie wystepuje w dokumencie"
+   ],
+   "metrics": {
+    "seconds": 38.99,
+    "tokens_in": 841,
+    "tokens_out": 133
+   }
+  },
+  {
+   "id": "inv_028",
+   "issues_before": [
+    "L2/grounding: invoice_number 'FV/2026/01/0001' nie wystepuje w dokumencie"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0001",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 24.46,
+    "total_vat": 5.63,
+    "total_gross": 30.09,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L2/grounding: invoice_number 'FV/2026/01/0001' nie wystepuje w dokumencie"
+   ],
+   "metrics": {
+    "seconds": 32.26,
+    "tokens_in": 720,
+    "tokens_out": 120
+   }
+  },
+  {
+   "id": "inv_030",
+   "issues_before": [
+    "L2/grounding: invoice_number 'FV/2026/02/0005' nie wystepuje w dokumencie"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0005",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 632.23,
+    "total_vat": 145.41,
+    "total_gross": 777.64,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L2/grounding: invoice_number 'FV/2026/02/0005' nie wystepuje w dokumencie"
+   ],
+   "metrics": {
+    "seconds": 35.35,
+    "tokens_in": 785,
+    "tokens_out": 124
+   }
+  },
+  {
+   "id": "inv_052",
+   "issues_before": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0052",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 2062.07,
+    "total_vat": 474.27,
+    "total_gross": 2536.34,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 49.49,
+    "tokens_in": 801,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_059",
+   "issues_before": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0059",
+    "seller_nip": "6772345192",
+    "buyer_nip": "6751234569",
+    "total_net": 3659.52,
+    "total_vat": 841.69,
+    "total_gross": 4501.21,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 48.69,
+    "tokens_in": 900,
+    "tokens_out": 133
+   }
+  }
+ ]
+}

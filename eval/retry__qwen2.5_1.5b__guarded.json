@@ -1,0 +1,424 @@
+{
+ "model": "qwen2.5:1.5b",
+ "variant": "guarded",
+ "defect_only": 3,
+ "results": [
+  {
+   "id": "inv_002",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0002",
+    "seller_nip": "6772345191",
+    "buyer_nip": null,
+    "total_net": 381.05,
+    "total_vat": 87.65,
+    "total_gross": 478.7,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 28.12,
+    "tokens_in": 886,
+    "tokens_out": 124
+   }
+  },
+  {
+   "id": "inv_006",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0006",
+    "seller_nip": "6342815903",
+    "buyer_nip": null,
+    "total_net": 1285.55,
+    "total_vat": 295.68,
+    "total_gross": 1581.23,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 16.22,
+    "tokens_in": 737,
+    "tokens_out": 128
+   }
+  },
+  {
+   "id": "inv_009",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0009",
+    "seller_nip": "6342815903",
+    "buyer_nip": null,
+    "total_net": 1659.97,
+    "total_vat": 381.8,
+    "total_gross": 2041.77,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 17.95,
+    "tokens_in": 836,
+    "tokens_out": 127
+   }
+  },
+  {
+   "id": "inv_014",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0014",
+    "seller_nip": "5261048824",
+    "buyer_nip": null,
+    "total_net": 689.68,
+    "total_vat": 158.62,
+    "total_gross": 848.3,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 21.34,
+    "tokens_in": 878,
+    "tokens_out": 125
+   }
+  },
+  {
+   "id": "inv_017",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0017",
+    "seller_nip": "6772345191",
+    "buyer_nip": null,
+    "total_net": 1068.66,
+    "total_vat": 245.79,
+    "total_gross": 1314.45,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 22.41,
+    "tokens_in": 891,
+    "tokens_out": 128
+   }
+  },
+  {
+   "id": "inv_019",
+   "issues_before": [
+    "L2/grounding: wystawil 'Tomasz Kowalski' nie wystepuje w dokumencie",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0019",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 8080.2,
+    "total_vat": 1858.45,
+    "total_gross": 9938.65,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "Tomasz Kowalski",
+    "data_zaplaty": "2026-01-08"
+   },
+   "issues_after": [
+    "L2/grounding: wystawil 'Tomasz Kowalski' nie wystepuje w dokumencie",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 22.02,
+    "tokens_in": 796,
+    "tokens_out": 155
+   }
+  },
+  {
+   "id": "inv_024",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0024",
+    "seller_nip": "5261048824",
+    "buyer_nip": null,
+    "total_net": 83.95,
+    "total_vat": 19.31,
+    "total_gross": 103.26,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 20.89,
+    "tokens_in": 723,
+    "tokens_out": 124
+   }
+  },
+  {
+   "id": "inv_027",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0027",
+    "seller_nip": "6772345191",
+    "buyer_nip": null,
+    "total_net": 414.67,
+    "total_vat": 95.38,
+    "total_gross": 510.05,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 34.21,
+    "tokens_in": 822,
+    "tokens_out": 125
+   }
+  },
+  {
+   "id": "inv_028",
+   "issues_before": [
+    "L2/grounding: invoice_number 'FV/2026/01/0001' nie wystepuje w dokumencie",
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "2026-44737",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 24.46,
+    "total_vat": 5.63,
+    "total_gross": 30.09,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 30.44,
+    "tokens_in": 753,
+    "tokens_out": 132
+   }
+  },
+  {
+   "id": "inv_030",
+   "issues_before": [
+    "L2/grounding: invoice_number 'FV/2026/01/0001' nie wystepuje w dokumencie"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0001",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 632.23,
+    "total_vat": 145.41,
+    "total_gross": 777.64,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L2/grounding: invoice_number 'FV/2026/01/0001' nie wystepuje w dokumencie"
+   ],
+   "metrics": {
+    "seconds": 72.85,
+    "tokens_in": 785,
+    "tokens_out": 136
+   }
+  },
+  {
+   "id": "inv_032",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0032",
+    "seller_nip": "6772345191",
+    "buyer_nip": null,
+    "total_net": 965.95,
+    "total_vat": 222.16,
+    "total_gross": 1188.11,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 48.53,
+    "tokens_in": 831,
+    "tokens_out": 127
+   }
+  },
+  {
+   "id": "inv_036",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0036",
+    "seller_nip": "5261048824",
+    "buyer_nip": null,
+    "total_net": 279.65,
+    "total_vat": 64.32,
+    "total_gross": 343.97,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 41.22,
+    "tokens_in": 734,
+    "tokens_out": 135
+   }
+  },
+  {
+   "id": "inv_037",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0037",
+    "seller_nip": "5832917645",
+    "buyer_nip": null,
+    "total_net": 1099.43,
+    "total_vat": 252.87,
+    "total_gross": 1352.3,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 23.2,
+    "tokens_in": 894,
+    "tokens_out": 127
+   }
+  },
+  {
+   "id": "inv_044",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0044",
+    "seller_nip": "6342815903",
+    "buyer_nip": null,
+    "total_net": 71.01,
+    "total_vat": 13.28,
+    "total_gross": 84.29,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 19.41,
+    "tokens_in": 720,
+    "tokens_out": 123
+   }
+  },
+  {
+   "id": "inv_048",
+   "issues_before": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0048",
+    "seller_nip": "6342815903",
+    "buyer_nip": null,
+    "total_net": 211804.53,
+    "total_vat": 48715.04,
+    "total_gross": 260519.57,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 25.92,
+    "tokens_in": 916,
+    "tokens_out": 134
+   }
+  }
+ ]
+}

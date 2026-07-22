@@ -1,0 +1,1778 @@
+{
+ "model": "qwen2.5:3b",
+ "variant": "naive",
+ "defect_only": 0,
+ "results": [
+  {
+   "id": "inv_001",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0001",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 346.11,
+    "total_vat": 79.61,
+    "total_gross": 425.72,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": "2026-06-23"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 70.8,
+    "tokens_in": 893,
+    "tokens_out": 140
+   }
+  },
+  {
+   "id": "inv_002",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0002",
+    "seller_nip": "6772345191",
+    "buyer_nip": "6751234569",
+    "total_net": 381.05,
+    "total_vat": 87.65,
+    "total_gross": 478.7,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-02-22"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 130.57,
+    "tokens_in": 1008,
+    "tokens_out": 141
+   }
+  },
+  {
+   "id": "inv_003",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0003",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 586.43,
+    "total_vat": 134.88,
+    "total_gross": 721.31,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-06-08"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 107.91,
+    "tokens_in": 864,
+    "tokens_out": 159
+   }
+  },
+  {
+   "id": "inv_004",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0004",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 22.56,
+    "total_vat": 5.19,
+    "total_gross": 27.75,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": "2026-02-12"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 118.89,
+    "tokens_in": 848,
+    "tokens_out": 140
+   }
+  },
+  {
+   "id": "inv_005",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0005",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 356.4,
+    "total_vat": 81.97,
+    "total_gross": 438.37,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-04-02"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 118.75,
+    "tokens_in": 855,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_006",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0006",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 1285.55,
+    "total_vat": 295.68,
+    "total_gross": 1581.23,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-04-11"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 161.96,
+    "tokens_in": 860,
+    "tokens_out": 144
+   }
+  },
+  {
+   "id": "inv_007",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0007",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 1033.46,
+    "total_vat": 237.7,
+    "total_gross": 1271.16,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-03-05"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 125.17,
+    "tokens_in": 1024,
+    "tokens_out": 146
+   }
+  },
+  {
+   "id": "inv_008",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0008",
+    "seller_nip": "5832917645",
+    "buyer_nip": "6751234569",
+    "total_net": 3284.38,
+    "total_vat": 755.41,
+    "total_gross": 4129.79,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-02-01"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 150.82,
+    "tokens_in": 913,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_009",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0009",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 1659.97,
+    "total_vat": 381.8,
+    "total_gross": 2041.77,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-06-04"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 118.76,
+    "tokens_in": 956,
+    "tokens_out": 143
+   }
+  },
+  {
+   "id": "inv_010",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0010",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 509.43,
+    "total_vat": 117.17,
+    "total_gross": 626.6,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-02-19"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 160.94,
+    "tokens_in": 955,
+    "tokens_out": 146
+   }
+  },
+  {
+   "id": "inv_011",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0011",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 315.32,
+    "total_vat": 70.65,
+    "total_gross": 385.97,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-06-08"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 103.74,
+    "tokens_in": 996,
+    "tokens_out": 142
+   }
+  },
+  {
+   "id": "inv_012",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0012",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 91.07,
+    "total_vat": 20.95,
+    "total_gross": 112.02,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": "2026-02-10"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 101.52,
+    "tokens_in": 889,
+    "tokens_out": 139
+   }
+  },
+  {
+   "id": "inv_013",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0013",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 68.42,
+    "total_vat": 15.74,
+    "total_gross": 84.16,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-06-07"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 50.84,
+    "tokens_in": 905,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_014",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0014",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 689.68,
+    "total_vat": 158.62,
+    "total_gross": 848.3,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-01-25"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 57.94,
+    "tokens_in": 1014,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_015",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0015",
+    "seller_nip": "5832917645",
+    "buyer_nip": "6751234569",
+    "total_net": 7770.21,
+    "total_vat": 1787.15,
+    "total_gross": 9557.36,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-05-08"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 41.54,
+    "tokens_in": 863,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_016",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0016",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 300.88,
+    "total_vat": 69.21,
+    "total_gross": 370.09,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": "2026-04-30"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 45.88,
+    "tokens_in": 1000,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_017",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0017",
+    "seller_nip": "6772345191",
+    "buyer_nip": "6751234569",
+    "total_net": 1068.66,
+    "total_vat": 245.79,
+    "total_gross": 1314.45,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-06-18"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 46.41,
+    "tokens_in": 1014,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_018",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0018",
+    "seller_nip": "6772345191",
+    "buyer_nip": "6751234569",
+    "total_net": 306.7,
+    "total_vat": 70.54,
+    "total_gross": 377.24,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-05-13"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 41.36,
+    "tokens_in": 898,
+    "tokens_out": 141
+   }
+  },
+  {
+   "id": "inv_019",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0019",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 8080.2,
+    "total_vat": 1858.45,
+    "total_gross": 9938.65,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-01-08"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 39.74,
+    "tokens_in": 862,
+    "tokens_out": 143
+   }
+  },
+  {
+   "id": "inv_020",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0020",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 410.33,
+    "total_vat": 94.38,
+    "total_gross": 504.71,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": null,
+    "data_zaplaty": "2026-04-09"
+   },
+   "issues_after": [
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 43.5,
+    "tokens_in": 945,
+    "tokens_out": 146
+   }
+  },
+  {
+   "id": "inv_021",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0021",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 6783.88,
+    "total_vat": 1560.29,
+    "total_gross": 8344.17,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": "2026-03-24"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 45.49,
+    "tokens_in": 982,
+    "tokens_out": 148
+   }
+  },
+  {
+   "id": "inv_022",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0022",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 642.83,
+    "total_vat": 147.86,
+    "total_gross": 790.69,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": null,
+    "data_zaplaty": "2026-01-10"
+   },
+   "issues_after": [
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 44.95,
+    "tokens_in": 979,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_023",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0023",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 10280.91,
+    "total_vat": 2364.61,
+    "total_gross": 12645.52,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": "2026-06-11"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 42.79,
+    "tokens_in": 925,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_024",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0024",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 83.95,
+    "total_vat": 19.31,
+    "total_gross": 103.26,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": null,
+    "data_zaplaty": "2026-04-05"
+   },
+   "issues_after": [
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 40.17,
+    "tokens_in": 859,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_025",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0025",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 3417.53,
+    "total_vat": 786.04,
+    "total_gross": 4203.57,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-02-22"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 47.08,
+    "tokens_in": 1022,
+    "tokens_out": 149
+   }
+  },
+  {
+   "id": "inv_026",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0026",
+    "seller_nip": "5832917645",
+    "buyer_nip": "6751234569",
+    "total_net": 6703.3,
+    "total_vat": 1541.76,
+    "total_gross": 8245.06,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-01-25"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 44.65,
+    "tokens_in": 966,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_027",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0027",
+    "seller_nip": "6772345191",
+    "buyer_nip": "6751234569",
+    "total_net": 414.67,
+    "total_vat": 95.38,
+    "total_gross": 510.05,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-04-04"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 45.1,
+    "tokens_in": 944,
+    "tokens_out": 153
+   }
+  },
+  {
+   "id": "inv_028",
+   "issues_before": [
+    "L2/grounding: invoice_number 'FV/2026/01/0004' nie wystepuje w dokumencie",
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": null,
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 24.46,
+    "total_vat": 5.63,
+    "total_gross": 30.09,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": "2026-06-18"
+   },
+   "issues_after": [
+    "L1/schemat: invoice_number",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 39.03,
+    "tokens_in": 867,
+    "tokens_out": 121
+   }
+  },
+  {
+   "id": "inv_029",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0029",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 2360.42,
+    "total_vat": 542.89,
+    "total_gross": 2903.31,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-05-22"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 44.92,
+    "tokens_in": 910,
+    "tokens_out": 154
+   }
+  },
+  {
+   "id": "inv_030",
+   "issues_before": [
+    "L2/grounding: invoice_number 'FV/2026/02/0001' nie wystepuje w dokumencie",
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": null,
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 632.23,
+    "total_vat": 145.41,
+    "total_gross": 777.64,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-02-12"
+   },
+   "issues_after": [
+    "L1/schemat: invoice_number",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 42.92,
+    "tokens_in": 946,
+    "tokens_out": 133
+   }
+  },
+  {
+   "id": "inv_031",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0004",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 858.3,
+    "total_vat": 197.41,
+    "total_gross": 1055.71,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-04-15"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 42.23,
+    "tokens_in": 872,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_032",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0032",
+    "seller_nip": "6772345191",
+    "buyer_nip": "6751234569",
+    "total_net": 965.95,
+    "total_vat": 222.16,
+    "total_gross": 1188.11,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-02-14"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 43.9,
+    "tokens_in": 953,
+    "tokens_out": 144
+   }
+  },
+  {
+   "id": "inv_033",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0033",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 511.04,
+    "total_vat": 117.54,
+    "total_gross": 628.58,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-07-08"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 40.49,
+    "tokens_in": 865,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_034",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0034",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 270.17,
+    "total_vat": 62.14,
+    "total_gross": 332.31,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-03-07"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 44.19,
+    "tokens_in": 909,
+    "tokens_out": 158
+   }
+  },
+  {
+   "id": "inv_035",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Handel-Widmo Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0035",
+    "seller_nip": "1181934533",
+    "buyer_nip": "6751234569",
+    "total_net": 555.13,
+    "total_vat": 127.67,
+    "total_gross": 682.8,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "Handel-Widmo Sp. z o.o.",
+    "data_zaplaty": "2026-05-13"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Handel-Widmo Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 47.39,
+    "tokens_in": 1007,
+    "tokens_out": 155
+   }
+  },
+  {
+   "id": "inv_036",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0036",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 279.65,
+    "total_vat": 64.32,
+    "total_gross": 343.97,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-05-05"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 40.1,
+    "tokens_in": 860,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_037",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0037",
+    "seller_nip": "5832917645",
+    "buyer_nip": "6751234569",
+    "total_net": 1099.43,
+    "total_vat": 252.87,
+    "total_gross": 1352.3,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-03-27"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 46.59,
+    "tokens_in": 1018,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_038",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0038",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 167.59,
+    "total_vat": 38.54,
+    "total_gross": 206.13,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-06-10"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 42.4,
+    "tokens_in": 910,
+    "tokens_out": 148
+   }
+  },
+  {
+   "id": "inv_039",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {},
+   "issues_after": [
+    "L1/schemat: invoice_number",
+    "L1/schemat: Field required [type=missing, input_value={}, input_type=dict]",
+    "L1/schemat: seller_nip",
+    "L1/schemat: Field required [type=missing, input_value={}, input_type=dict]"
+   ],
+   "metrics": {
+    "seconds": 25.59,
+    "tokens_in": 865,
+    "tokens_out": 2
+   }
+  },
+  {
+   "id": "inv_040",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0040",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 5118.02,
+    "total_vat": 1177.14,
+    "total_gross": 6295.16,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-04-30"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 43.63,
+    "tokens_in": 933,
+    "tokens_out": 150
+   }
+  },
+  {
+   "id": "inv_041",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0041",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 4904.59,
+    "total_vat": 1128.06,
+    "total_gross": 6032.65,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": null,
+    "data_zaplaty": "2026-01-24"
+   },
+   "issues_after": [
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 48.36,
+    "tokens_in": 1037,
+    "tokens_out": 149
+   }
+  },
+  {
+   "id": "inv_042",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0042",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 3423.45,
+    "total_vat": 787.39,
+    "total_gross": 4210.84,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-07-10"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 42.27,
+    "tokens_in": 915,
+    "tokens_out": 144
+   }
+  },
+  {
+   "id": "inv_043",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0043",
+    "seller_nip": "6762938476",
+    "buyer_nip": "6751234569",
+    "total_net": 1005.63,
+    "total_vat": 231.3,
+    "total_gross": 1236.93,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-05-12"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 47.25,
+    "tokens_in": 1022,
+    "tokens_out": 148
+   }
+  },
+  {
+   "id": "inv_044",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0044",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 57.73,
+    "total_vat": 13.28,
+    "total_gross": 71.01,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-07-16"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 38.68,
+    "tokens_in": 843,
+    "tokens_out": 138
+   }
+  },
+  {
+   "id": "inv_045",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0045",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 3101.74,
+    "total_vat": 713.4,
+    "total_gross": 3815.14,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-05-18"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 45.99,
+    "tokens_in": 979,
+    "tokens_out": 158
+   }
+  },
+  {
+   "id": "inv_046",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {},
+   "issues_after": [
+    "L1/schemat: invoice_number",
+    "L1/schemat: Field required [type=missing, input_value={}, input_type=dict]",
+    "L1/schemat: seller_nip",
+    "L1/schemat: Field required [type=missing, input_value={}, input_type=dict]"
+   ],
+   "metrics": {
+    "seconds": 25.0,
+    "tokens_in": 850,
+    "tokens_out": 2
+   }
+  },
+  {
+   "id": "inv_047",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0047",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 695.73,
+    "total_vat": 160.02,
+    "total_gross": 855.75,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-07-09"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 42.73,
+    "tokens_in": 864,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_048",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0048",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 211804.53,
+    "total_vat": 48715.04,
+    "total_gross": 260519.57,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-02-18"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 55.26,
+    "tokens_in": 1036,
+    "tokens_out": 151
+   }
+  },
+  {
+   "id": "inv_049",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {},
+   "issues_after": [
+    "L1/schemat: invoice_number",
+    "L1/schemat: Field required [type=missing, input_value={}, input_type=dict]",
+    "L1/schemat: seller_nip",
+    "L1/schemat: Field required [type=missing, input_value={}, input_type=dict]"
+   ],
+   "metrics": {
+    "seconds": 25.51,
+    "tokens_in": 850,
+    "tokens_out": 2
+   }
+  },
+  {
+   "id": "inv_050",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Handel-Widmo Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0050",
+    "seller_nip": "1181934533",
+    "buyer_nip": "6751234569",
+    "total_net": 1152.83,
+    "total_vat": 265.15,
+    "total_gross": 1417.98,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Handel-Widmo Sp. z o.o.",
+    "data_zaplaty": "2026-05-01"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Handel-Widmo Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 41.31,
+    "tokens_in": 868,
+    "tokens_out": 159
+   }
+  },
+  {
+   "id": "inv_051",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0051",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 931.76,
+    "total_vat": 214.31,
+    "total_gross": 1146.07,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": "2026-06-17"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 42.66,
+    "tokens_in": 913,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_052",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0052",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 2062.07,
+    "total_vat": 474.27,
+    "total_gross": 2536.34,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": "2026-06-17"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 43.51,
+    "tokens_in": 915,
+    "tokens_out": 148
+   }
+  },
+  {
+   "id": "inv_053",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0053",
+    "seller_nip": "5832917645",
+    "buyer_nip": "6751234569",
+    "total_net": 792.44,
+    "total_vat": 182.26,
+    "total_gross": 974.7,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-02-17"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 43.49,
+    "tokens_in": 947,
+    "tokens_out": 143
+   }
+  },
+  {
+   "id": "inv_054",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0054",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 11763.79,
+    "total_vat": 2705.68,
+    "total_gross": 14469.47,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-05-16"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 44.11,
+    "tokens_in": 949,
+    "tokens_out": 150
+   }
+  },
+  {
+   "id": "inv_055",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0055",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 339.57,
+    "total_vat": 78.1,
+    "total_gross": 417.67,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-05-21"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 49.26,
+    "tokens_in": 1008,
+    "tokens_out": 144
+   }
+  },
+  {
+   "id": "inv_056",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0056",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 2337.94,
+    "total_vat": 521.13,
+    "total_gross": 2859.07,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-03-11"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 47.14,
+    "tokens_in": 1020,
+    "tokens_out": 150
+   }
+  },
+  {
+   "id": "inv_057",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0005",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 1896.88,
+    "total_vat": 436.28,
+    "total_gross": 2333.16,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": "2026-07-04"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 44.06,
+    "tokens_in": 962,
+    "tokens_out": 143
+   }
+  },
+  {
+   "id": "inv_058",
+   "issues_before": [
+    "L2/grounding: wystawil 'TechnoSprint S.A.' nie wystepuje w dokumencie",
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'TechnoSprint S.A.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0058",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 3476.7,
+    "total_vat": 799.64,
+    "total_gross": 4276.34,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": null,
+    "data_zaplaty": "2026-06-22"
+   },
+   "issues_after": [
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 46.67,
+    "tokens_in": 1045,
+    "tokens_out": 136
+   }
+  },
+  {
+   "id": "inv_059",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0059",
+    "seller_nip": "6772345192",
+    "buyer_nip": "6751234569",
+    "total_net": 3659.52,
+    "total_vat": 841.69,
+    "total_gross": 4501.21,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-06-24"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 46.24,
+    "tokens_in": 1015,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_060",
+   "issues_before": [
+    "L3/rola: numer_konta ma 10 cyfr (NRB ma 26) - to nie numer rachunku",
+    "L3/rola: numer_konta identyczny z NIP - pomylone role pol",
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0060",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 599622.51,
+    "total_vat": 137913.18,
+    "total_gross": 737535.69,
+    "numer_konta": null,
+    "rabat": 0,
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-07-26"
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba",
+    "L3/rola: data_zaplaty przepisana z pola 'Termin platnosci' - dokument nie zawiera daty zaplaty"
+   ],
+   "metrics": {
+    "seconds": 42.08,
+    "tokens_in": 901,
+    "tokens_out": 155
+   }
+  }
+ ]
+}

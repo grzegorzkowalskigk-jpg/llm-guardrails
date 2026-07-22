@@ -1,0 +1,795 @@
+{
+ "model": "qwen2.5:1.5b",
+ "variant": "naive",
+ "defect_only": 2,
+ "results": [
+  {
+   "id": "inv_002",
+   "issues_before": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0002",
+    "seller_nip": "6772345191",
+    "buyer_nip": "6751234569",
+    "total_net": 381.05,
+    "total_vat": 87.65,
+    "total_gross": 478.7,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 27.94,
+    "tokens_in": 894,
+    "tokens_out": 139
+   }
+  },
+  {
+   "id": "inv_003",
+   "issues_before": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0003",
+    "seller_nip": "6762938475",
+    "buyer_nip": "6751234569",
+    "total_net": 586.43,
+    "total_vat": 134.88,
+    "total_gross": 721.31,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 21.1,
+    "tokens_in": 750,
+    "tokens_out": 146
+   }
+  },
+  {
+   "id": "inv_004",
+   "issues_before": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0004",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 22.56,
+    "total_vat": 5.19,
+    "total_gross": 27.75,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 40.3,
+    "tokens_in": 734,
+    "tokens_out": 139
+   }
+  },
+  {
+   "id": "inv_007",
+   "issues_before": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/02/0007",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 1033.46,
+    "total_vat": 237.7,
+    "total_gross": 1271.16,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 28.52,
+    "tokens_in": 907,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_009",
+   "issues_before": [
+    "L2/grounding: wystawil 'N/A' nie wystepuje w dokumencie"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0009",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 1659.97,
+    "total_vat": 381.8,
+    "total_gross": 2041.77,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "N/A",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L2/grounding: wystawil 'N/A' nie wystepuje w dokumencie"
+   ],
+   "metrics": {
+    "seconds": 25.43,
+    "tokens_in": 833,
+    "tokens_out": 137
+   }
+  },
+  {
+   "id": "inv_011",
+   "issues_before": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0011",
+    "seller_nip": "6342815903",
+    "buyer_nip": null,
+    "total_net": 315.32,
+    "total_vat": 70.65,
+    "total_gross": 385.97,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 29.22,
+    "tokens_in": 882,
+    "tokens_out": 131
+   }
+  },
+  {
+   "id": "inv_014",
+   "issues_before": [
+    "L3/rola: wystawil 'Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0014",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 689.68,
+    "total_vat": 158.62,
+    "total_gross": 848.3,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Nowak i Wspólnicy",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "metrics": {
+    "seconds": 24.22,
+    "tokens_in": 894,
+    "tokens_out": 140
+   }
+  },
+  {
+   "id": "inv_016",
+   "issues_before": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0016",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 300.88,
+    "total_vat": 69.21,
+    "total_gross": 370.09,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 23.93,
+    "tokens_in": 886,
+    "tokens_out": 142
+   }
+  },
+  {
+   "id": "inv_017",
+   "issues_before": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0017",
+    "seller_nip": "6772345191",
+    "buyer_nip": "6751234569",
+    "total_net": 1068.66,
+    "total_vat": 245.79,
+    "total_gross": 1314.45,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 28.43,
+    "tokens_in": 899,
+    "tokens_out": 143
+   }
+  },
+  {
+   "id": "inv_022",
+   "issues_before": [
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0022",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 642.83,
+    "total_vat": 147.86,
+    "total_gross": 790.69,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "metrics": {
+    "seconds": 27.26,
+    "tokens_in": 862,
+    "tokens_out": 144
+   }
+  },
+  {
+   "id": "inv_023",
+   "issues_before": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0023",
+    "seller_nip": "5252248481",
+    "buyer_nip": null,
+    "total_net": 10280.91,
+    "total_vat": 2364.61,
+    "total_gross": 12645.52,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 22.03,
+    "tokens_in": 811,
+    "tokens_out": 134
+   }
+  },
+  {
+   "id": "inv_028",
+   "issues_before": [
+    "L2/grounding: invoice_number 'FV/2026/01/0001' nie wystepuje w dokumencie",
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "2026-44737",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 24.46,
+    "total_vat": 5.63,
+    "total_gross": 30.09,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 17.96,
+    "tokens_in": 753,
+    "tokens_out": 132
+   }
+  },
+  {
+   "id": "inv_029",
+   "issues_before": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0029",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 2360.42,
+    "total_vat": 542.89,
+    "total_gross": 2903.31,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 22.96,
+    "tokens_in": 796,
+    "tokens_out": 142
+   }
+  },
+  {
+   "id": "inv_032",
+   "issues_before": [
+    "L3/rola: wystawil 'SoftForge Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0032",
+    "seller_nip": "6772345191",
+    "buyer_nip": null,
+    "total_net": 965.95,
+    "total_vat": 222.16,
+    "total_gross": 1188.11,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 43.56,
+    "tokens_in": 839,
+    "tokens_out": 132
+   }
+  },
+  {
+   "id": "inv_033",
+   "issues_before": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0033",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 511.04,
+    "total_vat": 117.54,
+    "total_gross": 628.58,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 21.49,
+    "tokens_in": 748,
+    "tokens_out": 144
+   }
+  },
+  {
+   "id": "inv_037",
+   "issues_before": [
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0037",
+    "seller_nip": "5832917645",
+    "buyer_nip": "6751234569",
+    "total_net": 1099.43,
+    "total_vat": 252.87,
+    "total_gross": 1352.3,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 25.93,
+    "tokens_in": 904,
+    "tokens_out": 143
+   }
+  },
+  {
+   "id": "inv_041",
+   "issues_before": [
+    "L3/rola: wystawil 'Kancelaria Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/01/0041",
+    "seller_nip": "5261048824",
+    "buyer_nip": null,
+    "total_net": 4904.59,
+    "total_vat": 1128.06,
+    "total_gross": 6032.65,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 25.95,
+    "tokens_in": 923,
+    "tokens_out": 139
+   }
+  },
+  {
+   "id": "inv_043",
+   "issues_before": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0043",
+    "seller_nip": "6762938476",
+    "buyer_nip": "6751234569",
+    "total_net": 1005.63,
+    "total_vat": 231.3,
+    "total_gross": 1236.93,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nieruchomości Centrum Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 23.5,
+    "tokens_in": 908,
+    "tokens_out": 147
+   }
+  },
+  {
+   "id": "inv_044",
+   "issues_before": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0044",
+    "seller_nip": "6342815903",
+    "buyer_nip": null,
+    "total_net": 57.73,
+    "total_vat": 13.28,
+    "total_gross": 71.01,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 19.24,
+    "tokens_in": 726,
+    "tokens_out": 129
+   }
+  },
+  {
+   "id": "inv_045",
+   "issues_before": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0045",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 3101.74,
+    "total_vat": 713.4,
+    "total_gross": 3815.14,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 22.0,
+    "tokens_in": 862,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_046",
+   "issues_before": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0046",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 58.2,
+    "total_vat": 13.39,
+    "total_gross": 71.59,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 28.79,
+    "tokens_in": 733,
+    "tokens_out": 141
+   }
+  },
+  {
+   "id": "inv_049",
+   "issues_before": [
+    "L3/rola: wystawil 'PetroTrans Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0049",
+    "seller_nip": "5832917645",
+    "buyer_nip": null,
+    "total_net": 125.49,
+    "total_vat": 28.86,
+    "total_gross": 154.35,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 28.97,
+    "tokens_in": 736,
+    "tokens_out": 133
+   }
+  },
+  {
+   "id": "inv_050",
+   "issues_before": [
+    "L3/rola: wystawil 'Handel-Widmo Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/04/0050",
+    "seller_nip": "1181934533",
+    "buyer_nip": "6751234569",
+    "total_net": 1152.83,
+    "total_vat": 265.15,
+    "total_gross": 1417.98,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Handel-Widmo Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Handel-Widmo Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 30.87,
+    "tokens_in": 754,
+    "tokens_out": 146
+   }
+  },
+  {
+   "id": "inv_051",
+   "issues_before": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0051",
+    "seller_nip": "1981726351",
+    "buyer_nip": null,
+    "total_net": 931.76,
+    "total_vat": 214.31,
+    "total_gross": 1146.07,
+    "numer_konta": null,
+    "rabat": null,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": null
+   },
+   "issues_after": [
+    "L1/schemat: buyer_nip",
+    "L1/schemat: Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]"
+   ],
+   "metrics": {
+    "seconds": 20.82,
+    "tokens_in": 796,
+    "tokens_out": 136
+   }
+  },
+  {
+   "id": "inv_052",
+   "issues_before": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0052",
+    "seller_nip": "1981726351",
+    "buyer_nip": "6751234569",
+    "total_net": 2062.07,
+    "total_vat": 474.27,
+    "total_gross": 2536.34,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'NetCom Polska Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 21.43,
+    "tokens_in": 801,
+    "tokens_out": 145
+   }
+  },
+  {
+   "id": "inv_054",
+   "issues_before": [
+    "L3/rola: wystawil 'Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0054",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 11763.79,
+    "total_vat": 2705.68,
+    "total_gross": 14469.47,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Nowak i Wspólnicy",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "metrics": {
+    "seconds": 22.67,
+    "tokens_in": 826,
+    "tokens_out": 146
+   }
+  },
+  {
+   "id": "inv_055",
+   "issues_before": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0055",
+    "seller_nip": "7792483011",
+    "buyer_nip": "6751234569",
+    "total_net": 339.57,
+    "total_vat": 78.1,
+    "total_gross": 417.67,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Kreatywni Sp. z o.o.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 27.72,
+    "tokens_in": 891,
+    "tokens_out": 142
+   }
+  },
+  {
+   "id": "inv_057",
+   "issues_before": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/03/0005",
+    "seller_nip": "5252248481",
+    "buyer_nip": "6751234569",
+    "total_net": 1896.88,
+    "total_vat": 436.28,
+    "total_gross": 2333.16,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'BiuroMax S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 24.07,
+    "tokens_in": 848,
+    "tokens_out": 141
+   }
+  },
+  {
+   "id": "inv_058",
+   "issues_before": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/05/0058",
+    "seller_nip": "6342815903",
+    "buyer_nip": "6751234569",
+    "total_net": 3476.7,
+    "total_vat": 799.64,
+    "total_gross": 4276.34,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'TechSprzęt S.A.' to firma (forma prawna), nie osoba"
+   ],
+   "metrics": {
+    "seconds": 20.51,
+    "tokens_in": 898,
+    "tokens_out": 141
+   }
+  },
+  {
+   "id": "inv_060",
+   "issues_before": [
+    "L3/rola: wystawil 'Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "got_retry": {
+    "invoice_number": "FV/2026/06/0060",
+    "seller_nip": "5261048824",
+    "buyer_nip": "6751234569",
+    "total_net": 599622.51,
+    "total_vat": 137913.18,
+    "total_gross": 737535.69,
+    "numer_konta": "",
+    "rabat": null,
+    "wystawil": "Nowak i Wspólnicy",
+    "data_zaplaty": ""
+   },
+   "issues_after": [
+    "L3/rola: wystawil 'Nowak i Wspólnicy' to (skrocona) nazwa strony transakcji, nie osoba"
+   ],
+   "metrics": {
+    "seconds": 20.4,
+    "tokens_in": 781,
+    "tokens_out": 150
+   }
+  }
+ ]
+}
