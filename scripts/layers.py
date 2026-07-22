@@ -101,10 +101,17 @@ def layer3_rules(ext: Extraction, ocr: str) -> list[str]:
         if any(form in w for form in LEGAL_FORMS):
             issues.append(f"L3/rola: wystawil '{ext.wystawil}' to firma (forma prawna), nie osoba")
         else:
-            # nazwa firmy z dokumentu (linia po SPRZEDAWCA/NABYWCA) uzyta jako osoba
+            # nazwa firmy z dokumentu (linia po SPRZEDAWCA/NABYWCA) uzyta jako osoba —
+            # takze SKROCONA (iteracja #1: 'Nowak i Wspolnicy' z 'Kancelaria Nowak
+            # i Wspolnicy' przechodzilo, bo nie rownalo sie DOKLADNIE nazwie strony);
+            # regula: wszystkie tokeny 'wystawil' zawieraja sie w nazwie strony
             m = re.findall(r"(?:SPRZEDAWCA|NABYWCA):\s*\n\s*(.+)", ocr)
-            if any(norm(x) == w for x in m):
-                issues.append(f"L3/rola: wystawil '{ext.wystawil}' to strona transakcji, nie osoba wystawiajaca")
+            for x in m:
+                party = set(norm(x).split())
+                tokens = set(w.split())
+                if tokens and tokens <= party:
+                    issues.append(f"L3/rola: wystawil '{ext.wystawil}' to (skrocona) nazwa strony transakcji, nie osoba")
+                    break
 
     # data zaplaty: przepisana z innej roli (termin platnosci / daty faktury)
     if ext.data_zaplaty is not None:

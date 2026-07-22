@@ -1,5 +1,5 @@
 {
- "model": "qwen2.5:1.5b",
+ "model": "qwen2.5:3b",
  "variant": "naive",
  "results": [
   {
@@ -11,15 +11,15 @@
     "total_net": 346.11,
     "total_vat": 79.61,
     "total_gross": 425.72,
-    "numer_konta": "",
+    "numer_konta": "5252248481",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": "2026-06-23"
    },
    "metrics": {
-    "seconds": 18.07,
+    "seconds": 43.41,
     "tokens_in": 603,
-    "tokens_out": 133
+    "tokens_out": 149
    }
   },
   {
@@ -31,15 +31,15 @@
     "total_net": 381.05,
     "total_vat": 87.65,
     "total_gross": 478.7,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
     "wystawil": "SoftForge Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-02-22"
    },
    "metrics": {
-    "seconds": 25.16,
+    "seconds": 29.69,
     "tokens_in": 715,
-    "tokens_out": 141
+    "tokens_out": 151
    }
   },
   {
@@ -51,15 +51,15 @@
     "total_net": 586.43,
     "total_vat": 134.88,
     "total_gross": 721.31,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
     "wystawil": "Nieruchomości Centrum Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-06-08"
    },
    "metrics": {
-    "seconds": 18.49,
+    "seconds": 25.21,
     "tokens_in": 559,
-    "tokens_out": 147
+    "tokens_out": 157
    }
   },
   {
@@ -71,15 +71,15 @@
     "total_net": 22.56,
     "total_vat": 5.19,
     "total_gross": 27.75,
-    "numer_konta": "",
+    "numer_konta": "1981726351",
     "rabat": 0,
     "wystawil": "NetCom Polska Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-02-12"
    },
    "metrics": {
-    "seconds": 20.19,
+    "seconds": 40.03,
     "tokens_in": 553,
-    "tokens_out": 140
+    "tokens_out": 152
    }
   },
   {
@@ -91,15 +91,15 @@
     "total_net": 356.4,
     "total_vat": 81.97,
     "total_gross": 438.37,
-    "numer_konta": "",
+    "numer_konta": "6762938475",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-04-02"
    },
    "metrics": {
-    "seconds": 16.19,
+    "seconds": 32.06,
     "tokens_in": 552,
-    "tokens_out": 133
+    "tokens_out": 155
    }
   },
   {
@@ -111,15 +111,15 @@
     "total_net": 1285.55,
     "total_vat": 295.68,
     "total_gross": 1581.23,
-    "numer_konta": "",
+    "numer_konta": "NIP:6342815903",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-04-11"
    },
    "metrics": {
-    "seconds": 16.99,
+    "seconds": 35.53,
     "tokens_in": 562,
-    "tokens_out": 136
+    "tokens_out": 156
    }
   },
   {
@@ -131,15 +131,15 @@
     "total_net": 1033.46,
     "total_vat": 237.7,
     "total_gross": 1271.16,
-    "numer_konta": "",
+    "numer_konta": "NIP:7792483011",
     "rabat": 0,
     "wystawil": "Kreatywni Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-03-05"
    },
    "metrics": {
-    "seconds": 21.01,
+    "seconds": 35.84,
     "tokens_in": 719,
-    "tokens_out": 147
+    "tokens_out": 162
    }
   },
   {
@@ -151,15 +151,15 @@
     "total_net": 3284.38,
     "total_vat": 755.41,
     "total_gross": 4129.79,
-    "numer_konta": "",
+    "numer_konta": "5832917645",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-02-01"
    },
    "metrics": {
-    "seconds": 17.62,
+    "seconds": 43.83,
     "tokens_in": 614,
-    "tokens_out": 136
+    "tokens_out": 156
    }
   },
   {
@@ -171,15 +171,15 @@
     "total_net": 1659.97,
     "total_vat": 381.8,
     "total_gross": 2041.77,
-    "numer_konta": "",
+    "numer_konta": "6342815903",
     "rabat": 0,
-    "wystawil": "N/A",
-    "data_zaplaty": ""
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-06-04"
    },
    "metrics": {
-    "seconds": 18.09,
+    "seconds": 42.21,
     "tokens_in": 662,
-    "tokens_out": 139
+    "tokens_out": 153
    }
   },
   {
@@ -191,15 +191,15 @@
     "total_net": 509.43,
     "total_vat": 117.17,
     "total_gross": 626.6,
-    "numer_konta": "",
+    "numer_konta": "7792483011",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-02-19"
    },
    "metrics": {
-    "seconds": 17.88,
+    "seconds": 39.7,
     "tokens_in": 655,
-    "tokens_out": 133
+    "tokens_out": 155
    }
   },
   {
@@ -211,15 +211,15 @@
     "total_net": 315.32,
     "total_vat": 70.65,
     "total_gross": 385.97,
-    "numer_konta": "",
+    "numer_konta": "6342815903",
     "rabat": 0,
     "wystawil": "TechSprzęt S.A.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-06-08"
    },
    "metrics": {
-    "seconds": 19.92,
+    "seconds": 40.29,
     "tokens_in": 704,
-    "tokens_out": 140
+    "tokens_out": 149
    }
   },
   {
@@ -231,15 +231,15 @@
     "total_net": 91.07,
     "total_vat": 20.95,
     "total_gross": 112.02,
-    "numer_konta": "",
+    "numer_konta": "5252248481",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": "2026-02-10"
    },
    "metrics": {
-    "seconds": 18.56,
+    "seconds": 30.37,
     "tokens_in": 600,
-    "tokens_out": 132
+    "tokens_out": 148
    }
   },
   {
@@ -251,15 +251,15 @@
     "total_net": 68.42,
     "total_vat": 15.74,
     "total_gross": 84.16,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-06-07"
    },
    "metrics": {
-    "seconds": 17.45,
+    "seconds": 35.5,
     "tokens_in": 603,
-    "tokens_out": 131
+    "tokens_out": 154
    }
   },
   {
@@ -271,15 +271,15 @@
     "total_net": 689.68,
     "total_vat": 158.62,
     "total_gross": 848.3,
-    "numer_konta": "",
+    "numer_konta": "5261048824",
     "rabat": 0,
-    "wystawil": "Nowak i Wspólnicy",
-    "data_zaplaty": ""
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-01-25"
    },
    "metrics": {
-    "seconds": 17.36,
+    "seconds": 46.46,
     "tokens_in": 706,
-    "tokens_out": 142
+    "tokens_out": 155
    }
   },
   {
@@ -291,15 +291,15 @@
     "total_net": 7770.21,
     "total_vat": 1787.15,
     "total_gross": 9557.36,
-    "numer_konta": "",
+    "numer_konta": "5832917645",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-05-08"
    },
    "metrics": {
-    "seconds": 14.04,
+    "seconds": 36.86,
     "tokens_in": 563,
-    "tokens_out": 137
+    "tokens_out": 156
    }
   },
   {
@@ -311,15 +311,15 @@
     "total_net": 300.88,
     "total_vat": 69.21,
     "total_gross": 370.09,
-    "numer_konta": "",
+    "numer_konta": "1981726351",
     "rabat": 0,
     "wystawil": "NetCom Polska Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-04-30"
    },
    "metrics": {
-    "seconds": 16.81,
+    "seconds": 35.14,
     "tokens_in": 702,
-    "tokens_out": 143
+    "tokens_out": 152
    }
   },
   {
@@ -331,15 +331,14 @@
     "total_net": 1068.66,
     "total_vat": 245.79,
     "total_gross": 1314.45,
-    "numer_konta": "",
-    "rabat": 0,
+    "numer_konta": "NIP:6772345191 (Sprzedawcy)",
     "wystawil": "SoftForge Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-06-18"
    },
    "metrics": {
-    "seconds": 17.17,
+    "seconds": 35.98,
     "tokens_in": 716,
-    "tokens_out": 144
+    "tokens_out": 154
    }
   },
   {
@@ -351,15 +350,15 @@
     "total_net": 306.7,
     "total_vat": 70.54,
     "total_gross": 377.24,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-05-13"
    },
    "metrics": {
-    "seconds": 17.9,
+    "seconds": 31.49,
     "tokens_in": 605,
-    "tokens_out": 132
+    "tokens_out": 150
    }
   },
   {
@@ -371,15 +370,15 @@
     "total_net": 8080.2,
     "total_vat": 1858.45,
     "total_gross": 9938.65,
-    "numer_konta": "",
+    "numer_konta": "6342815903",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-01-08"
    },
    "metrics": {
-    "seconds": 20.58,
+    "seconds": 29.99,
     "tokens_in": 567,
-    "tokens_out": 137
+    "tokens_out": 153
    }
   },
   {
@@ -391,15 +390,15 @@
     "total_net": 410.33,
     "total_vat": 94.38,
     "total_gross": 504.71,
-    "numer_konta": "",
+    "numer_konta": "5252248481",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "BiuroMax S.A.",
+    "data_zaplaty": "2026-04-09"
    },
    "metrics": {
-    "seconds": 17.83,
+    "seconds": 32.79,
     "tokens_in": 655,
-    "tokens_out": 133
+    "tokens_out": 149
    }
   },
   {
@@ -411,15 +410,15 @@
     "total_net": 6783.88,
     "total_vat": 1560.29,
     "total_gross": 8344.17,
-    "numer_konta": "",
+    "numer_konta": "1981726351",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": "2026-03-24"
    },
    "metrics": {
-    "seconds": 20.51,
+    "seconds": 31.49,
     "tokens_in": 680,
-    "tokens_out": 137
+    "tokens_out": 157
    }
   },
   {
@@ -431,15 +430,15 @@
     "total_net": 642.83,
     "total_vat": 147.86,
     "total_gross": 790.69,
-    "numer_konta": "",
+    "numer_konta": "NIP:5261048824",
     "rabat": 0,
     "wystawil": "Kancelaria Nowak i Wspólnicy",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-01-10"
    },
    "metrics": {
-    "seconds": 23.81,
+    "seconds": 30.85,
     "tokens_in": 667,
-    "tokens_out": 145
+    "tokens_out": 158
    }
   },
   {
@@ -451,15 +450,15 @@
     "total_net": 10280.91,
     "total_vat": 2364.61,
     "total_gross": 12645.52,
-    "numer_konta": "",
+    "numer_konta": "5252248481",
     "rabat": 0,
     "wystawil": "BiuroMax S.A.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-06-11"
    },
    "metrics": {
-    "seconds": 20.8,
+    "seconds": 30.17,
     "tokens_in": 629,
-    "tokens_out": 145
+    "tokens_out": 155
    }
   },
   {
@@ -471,15 +470,15 @@
     "total_net": 83.95,
     "total_vat": 19.31,
     "total_gross": 103.26,
-    "numer_konta": "",
+    "numer_konta": "5261048824",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-04-05"
    },
    "metrics": {
-    "seconds": 15.48,
+    "seconds": 29.16,
     "tokens_in": 552,
-    "tokens_out": 132
+    "tokens_out": 153
    }
   },
   {
@@ -491,15 +490,15 @@
     "total_net": 3417.53,
     "total_vat": 786.04,
     "total_gross": 4203.57,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-02-22"
    },
    "metrics": {
-    "seconds": 17.51,
+    "seconds": 34.11,
     "tokens_in": 715,
-    "tokens_out": 136
+    "tokens_out": 158
    }
   },
   {
@@ -511,15 +510,15 @@
     "total_net": 6703.3,
     "total_vat": 1541.76,
     "total_gross": 8245.06,
-    "numer_konta": "",
+    "numer_konta": "5832917645",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-01-25"
    },
    "metrics": {
-    "seconds": 14.81,
+    "seconds": 30.98,
     "tokens_in": 667,
-    "tokens_out": 136
+    "tokens_out": 155
    }
   },
   {
@@ -531,35 +530,35 @@
     "total_net": 414.67,
     "total_vat": 95.38,
     "total_gross": 510.05,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-04-04"
    },
    "metrics": {
-    "seconds": 14.41,
+    "seconds": 29.02,
     "tokens_in": 650,
-    "tokens_out": 133
+    "tokens_out": 151
    }
   },
   {
    "id": "inv_028",
    "got": {
-    "invoice_number": "FV/2026/01/0001",
+    "invoice_number": "FV/2026/01/0004",
     "seller_nip": "5252248481",
     "buyer_nip": "6751234569",
     "total_net": 24.46,
     "total_vat": 5.63,
     "total_gross": 30.09,
-    "numer_konta": "",
+    "numer_konta": "5252248481",
     "rabat": 0,
     "wystawil": "BiuroMax S.A.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-06-18"
    },
    "metrics": {
-    "seconds": 12.84,
+    "seconds": 24.04,
     "tokens_in": 544,
-    "tokens_out": 136
+    "tokens_out": 146
    }
   },
   {
@@ -571,35 +570,35 @@
     "total_net": 2360.42,
     "total_vat": 542.89,
     "total_gross": 2903.31,
-    "numer_konta": "",
+    "numer_konta": "6342815903",
     "rabat": 0,
     "wystawil": "TechSprzęt S.A.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-05-22"
    },
    "metrics": {
-    "seconds": 14.39,
+    "seconds": 27.85,
     "tokens_in": 615,
-    "tokens_out": 143
+    "tokens_out": 153
    }
   },
   {
    "id": "inv_030",
    "got": {
-    "invoice_number": "FV/2026/02/05",
+    "invoice_number": "FV/2026/02/0001",
     "seller_nip": "6762938475",
     "buyer_nip": "6751234569",
     "total_net": 632.23,
     "total_vat": 145.41,
     "total_gross": 777.64,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-02-12"
    },
    "metrics": {
-    "seconds": 14.18,
+    "seconds": 26.91,
     "tokens_in": 605,
-    "tokens_out": 132
+    "tokens_out": 157
    }
   },
   {
@@ -611,15 +610,15 @@
     "total_net": 858.3,
     "total_vat": 197.41,
     "total_gross": 1055.71,
-    "numer_konta": "",
+    "numer_konta": "NIP:5261048824",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-04-15"
    },
    "metrics": {
-    "seconds": 14.72,
+    "seconds": 26.1,
     "tokens_in": 560,
-    "tokens_out": 135
+    "tokens_out": 158
    }
   },
   {
@@ -631,15 +630,15 @@
     "total_net": 965.95,
     "total_vat": 222.16,
     "total_gross": 1188.11,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
     "wystawil": "SoftForge Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-02-14"
    },
    "metrics": {
-    "seconds": 15.23,
+    "seconds": 27.86,
     "tokens_in": 657,
-    "tokens_out": 143
+    "tokens_out": 153
    }
   },
   {
@@ -651,15 +650,15 @@
     "total_net": 511.04,
     "total_vat": 117.54,
     "total_gross": 628.58,
-    "numer_konta": "",
+    "numer_konta": "NIP:7792483011",
     "rabat": 0,
     "wystawil": "Kreatywni Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-07-08"
    },
    "metrics": {
-    "seconds": 13.61,
+    "seconds": 25.56,
     "tokens_in": 561,
-    "tokens_out": 145
+    "tokens_out": 158
    }
   },
   {
@@ -671,15 +670,15 @@
     "total_net": 270.17,
     "total_vat": 62.14,
     "total_gross": 332.31,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-03-07"
    },
    "metrics": {
-    "seconds": 16.02,
+    "seconds": 26.33,
     "tokens_in": 605,
-    "tokens_out": 133
+    "tokens_out": 156
    }
   },
   {
@@ -691,15 +690,15 @@
     "total_net": 555.13,
     "total_vat": 127.67,
     "total_gross": 682.8,
-    "numer_konta": "",
+    "numer_konta": "1181934533",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Handel-Widmo Sp. z o.o.",
+    "data_zaplaty": "2026-05-13"
    },
    "metrics": {
-    "seconds": 16.54,
+    "seconds": 30.03,
     "tokens_in": 707,
-    "tokens_out": 134
+    "tokens_out": 155
    }
   },
   {
@@ -711,15 +710,15 @@
     "total_net": 279.65,
     "total_vat": 64.32,
     "total_gross": 343.97,
-    "numer_konta": "",
+    "numer_konta": "5261048824",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-05-05"
    },
    "metrics": {
-    "seconds": 14.81,
+    "seconds": 24.34,
     "tokens_in": 552,
-    "tokens_out": 133
+    "tokens_out": 154
    }
   },
   {
@@ -731,15 +730,15 @@
     "total_net": 1099.43,
     "total_vat": 252.87,
     "total_gross": 1352.3,
-    "numer_konta": "",
+    "numer_konta": "5832917645",
     "rabat": 0,
     "wystawil": "PetroTrans Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-03-27"
    },
    "metrics": {
-    "seconds": 21.21,
+    "seconds": 30.35,
     "tokens_in": 720,
-    "tokens_out": 145
+    "tokens_out": 155
    }
   },
   {
@@ -751,15 +750,15 @@
     "total_net": 167.59,
     "total_vat": 38.54,
     "total_gross": 206.13,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-06-10"
    },
    "metrics": {
-    "seconds": 15.76,
+    "seconds": 26.37,
     "tokens_in": 606,
-    "tokens_out": 133
+    "tokens_out": 156
    }
   },
   {
@@ -771,15 +770,15 @@
     "total_net": 3199.97,
     "total_vat": 735.99,
     "total_gross": 3935.96,
-    "numer_konta": "",
+    "numer_konta": "NIP:1981726351",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "NetCom Polska Sp. z o.o.",
+    "data_zaplaty": "2026-06-23"
    },
    "metrics": {
-    "seconds": 15.9,
+    "seconds": 25.17,
     "tokens_in": 561,
-    "tokens_out": 136
+    "tokens_out": 159
    }
   },
   {
@@ -791,15 +790,15 @@
     "total_net": 5118.02,
     "total_vat": 1177.14,
     "total_gross": 6295.16,
-    "numer_konta": "",
+    "numer_konta": "NIP:7792483011",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-04-30"
    },
    "metrics": {
-    "seconds": 16.32,
+    "seconds": 27.81,
     "tokens_in": 626,
-    "tokens_out": 137
+    "tokens_out": 161
    }
   },
   {
@@ -811,15 +810,15 @@
     "total_net": 4904.59,
     "total_vat": 1128.06,
     "total_gross": 6032.65,
-    "numer_konta": "",
+    "numer_konta": "5261048824",
     "rabat": 0,
     "wystawil": "Kancelaria Nowak i Wspólnicy",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-01-24"
    },
    "metrics": {
-    "seconds": 17.19,
+    "seconds": 30.79,
     "tokens_in": 725,
-    "tokens_out": 148
+    "tokens_out": 158
    }
   },
   {
@@ -831,15 +830,15 @@
     "total_net": 3423.45,
     "total_vat": 787.39,
     "total_gross": 4210.84,
-    "numer_konta": "",
+    "numer_konta": "6342815903",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-07-10"
    },
    "metrics": {
-    "seconds": 13.93,
+    "seconds": 27.0,
     "tokens_in": 620,
-    "tokens_out": 136
+    "tokens_out": 153
    }
   },
   {
@@ -851,15 +850,15 @@
     "total_net": 1005.63,
     "total_vat": 231.3,
     "total_gross": 1236.93,
-    "numer_konta": "",
+    "numer_konta": "6751234569",
     "rabat": 0,
     "wystawil": "Nieruchomości Centrum Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-05-12"
    },
    "metrics": {
-    "seconds": 16.64,
+    "seconds": 30.54,
     "tokens_in": 716,
-    "tokens_out": 149
+    "tokens_out": 158
    }
   },
   {
@@ -871,15 +870,15 @@
     "total_net": 57.73,
     "total_vat": 13.28,
     "total_gross": 71.01,
-    "numer_konta": "",
+    "numer_konta": "NIP:6342815903",
     "rabat": 0,
     "wystawil": "TechSprzęt S.A.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-07-16"
    },
    "metrics": {
-    "seconds": 12.79,
+    "seconds": 24.17,
     "tokens_in": 550,
-    "tokens_out": 138
+    "tokens_out": 151
    }
   },
   {
@@ -891,15 +890,15 @@
     "total_net": 3101.74,
     "total_vat": 713.4,
     "total_gross": 3815.14,
-    "numer_konta": "",
+    "numer_konta": "NIP:7792483011",
     "rabat": 0,
     "wystawil": "Kreatywni Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-05-18"
    },
    "metrics": {
-    "seconds": 15.54,
+    "seconds": 29.1,
     "tokens_in": 674,
-    "tokens_out": 147
+    "tokens_out": 160
    }
   },
   {
@@ -911,15 +910,15 @@
     "total_net": 58.2,
     "total_vat": 13.39,
     "total_gross": 71.59,
-    "numer_konta": "",
+    "numer_konta": "NIP:1981726351",
     "rabat": 0,
     "wystawil": "NetCom Polska Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-07-07"
    },
    "metrics": {
-    "seconds": 13.02,
+    "seconds": 24.36,
     "tokens_in": 552,
-    "tokens_out": 141
+    "tokens_out": 153
    }
   },
   {
@@ -931,15 +930,15 @@
     "total_net": 695.73,
     "total_vat": 160.02,
     "total_gross": 855.75,
-    "numer_konta": "",
+    "numer_konta": "7792483011",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Kreatywni Sp. z o.o.",
+    "data_zaplaty": "2026-07-09"
    },
    "metrics": {
-    "seconds": 12.77,
+    "seconds": 24.81,
     "tokens_in": 563,
-    "tokens_out": 134
+    "tokens_out": 155
    }
   },
   {
@@ -951,15 +950,15 @@
     "total_net": 211804.53,
     "total_vat": 48715.04,
     "total_gross": 260519.57,
-    "numer_konta": "",
+    "numer_konta": "6342815903",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "TechSprzęt S.A.",
+    "data_zaplaty": "2026-02-18"
    },
    "metrics": {
-    "seconds": 16.21,
+    "seconds": 31.33,
     "tokens_in": 735,
-    "tokens_out": 142
+    "tokens_out": 158
    }
   },
   {
@@ -971,15 +970,15 @@
     "total_net": 125.49,
     "total_vat": 28.86,
     "total_gross": 154.35,
-    "numer_konta": "",
+    "numer_konta": "5832917645",
     "rabat": 0,
     "wystawil": "PetroTrans Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-05-24"
    },
    "metrics": {
-    "seconds": 13.03,
+    "seconds": 24.56,
     "tokens_in": 554,
-    "tokens_out": 142
+    "tokens_out": 152
    }
   },
   {
@@ -991,15 +990,15 @@
     "total_net": 1152.83,
     "total_vat": 265.15,
     "total_gross": 1417.98,
-    "numer_konta": "",
+    "numer_konta": "1181934533",
     "rabat": 0,
     "wystawil": "Handel-Widmo Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-05-01"
    },
    "metrics": {
-    "seconds": 13.6,
+    "seconds": 25.26,
     "tokens_in": 565,
-    "tokens_out": 147
+    "tokens_out": 157
    }
   },
   {
@@ -1011,15 +1010,15 @@
     "total_net": 931.76,
     "total_vat": 214.31,
     "total_gross": 1146.07,
-    "numer_konta": "",
+    "numer_konta": "NIP:1981726351",
     "rabat": 0,
     "wystawil": "NetCom Polska Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-06-17"
    },
    "metrics": {
-    "seconds": 14.44,
+    "seconds": 28.86,
     "tokens_in": 610,
-    "tokens_out": 145
+    "tokens_out": 158
    }
   },
   {
@@ -1031,15 +1030,15 @@
     "total_net": 2062.07,
     "total_vat": 474.27,
     "total_gross": 2536.34,
-    "numer_konta": "",
+    "numer_konta": "1981726351",
     "rabat": 0,
     "wystawil": "NetCom Polska Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-06-17"
    },
    "metrics": {
-    "seconds": 14.56,
+    "seconds": 31.15,
     "tokens_in": 614,
-    "tokens_out": 146
+    "tokens_out": 156
    }
   },
   {
@@ -1051,15 +1050,15 @@
     "total_net": 792.44,
     "total_vat": 182.26,
     "total_gross": 974.7,
-    "numer_konta": "",
+    "numer_konta": "5832917645",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "PetroTrans Sp. z o.o.",
+    "data_zaplaty": "2026-02-17"
    },
    "metrics": {
-    "seconds": 14.59,
+    "seconds": 32.56,
     "tokens_in": 651,
-    "tokens_out": 134
+    "tokens_out": 153
    }
   },
   {
@@ -1071,15 +1070,15 @@
     "total_net": 11763.79,
     "total_vat": 2705.68,
     "total_gross": 14469.47,
-    "numer_konta": "",
+    "numer_konta": "NIP:5261048824",
     "rabat": 0,
-    "wystawil": "Nowak i Wspólnicy",
-    "data_zaplaty": ""
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-05-16"
    },
    "metrics": {
-    "seconds": 14.75,
+    "seconds": 28.18,
     "tokens_in": 632,
-    "tokens_out": 147
+    "tokens_out": 162
    }
   },
   {
@@ -1091,15 +1090,15 @@
     "total_net": 339.57,
     "total_vat": 78.1,
     "total_gross": 417.67,
-    "numer_konta": "",
+    "numer_konta": "NIP:7792483011",
     "rabat": 0,
     "wystawil": "Kreatywni Sp. z o.o.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-05-21"
    },
    "metrics": {
-    "seconds": 16.09,
+    "seconds": 31.13,
     "tokens_in": 706,
-    "tokens_out": 144
+    "tokens_out": 156
    }
   },
   {
@@ -1111,15 +1110,15 @@
     "total_net": 2337.94,
     "total_vat": 521.13,
     "total_gross": 2859.07,
-    "numer_konta": "",
+    "numer_konta": "6762938475",
     "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "wystawil": "Nieruchomości Centrum Sp. z o.o.",
+    "data_zaplaty": "2026-03-11"
    },
    "metrics": {
-    "seconds": 15.54,
+    "seconds": 31.54,
     "tokens_in": 713,
-    "tokens_out": 136
+    "tokens_out": 159
    }
   },
   {
@@ -1131,15 +1130,15 @@
     "total_net": 1896.88,
     "total_vat": 436.28,
     "total_gross": 2333.16,
-    "numer_konta": "",
+    "numer_konta": "5252248481",
     "rabat": 0,
     "wystawil": "BiuroMax S.A.",
-    "data_zaplaty": ""
+    "data_zaplaty": "2026-07-04"
    },
    "metrics": {
-    "seconds": 15.25,
+    "seconds": 28.74,
     "tokens_in": 669,
-    "tokens_out": 142
+    "tokens_out": 151
    }
   },
   {
@@ -1151,15 +1150,15 @@
     "total_net": 3476.7,
     "total_vat": 799.64,
     "total_gross": 4276.34,
-    "numer_konta": "",
+    "numer_konta": "NIP:6342815903 (Sprzedawcy)",
     "rabat": 0,
-    "wystawil": "TechSprzęt S.A.",
-    "data_zaplaty": ""
+    "wystawil": "TechnoSprint S.A.",
+    "data_zaplaty": "2026-06-22"
    },
    "metrics": {
-    "seconds": 16.25,
+    "seconds": 31.42,
     "tokens_in": 718,
-    "tokens_out": 143
+    "tokens_out": 158
    }
   },
   {
@@ -1171,15 +1170,14 @@
     "total_net": 3659.52,
     "total_vat": 841.69,
     "total_gross": 4501.21,
-    "numer_konta": "",
-    "rabat": 0,
-    "wystawil": "",
-    "data_zaplaty": ""
+    "numer_konta": "NIP:6772345192 (Sprzedawca)",
+    "wystawil": "SoftForge Sp. z o.o.",
+    "data_zaplaty": "2026-06-24"
    },
    "metrics": {
-    "seconds": 18.57,
+    "seconds": 30.21,
     "tokens_in": 717,
-    "tokens_out": 136
+    "tokens_out": 154
    }
   },
   {
@@ -1191,15 +1189,15 @@
     "total_net": 599622.51,
     "total_vat": 137913.18,
     "total_gross": 737535.69,
-    "numer_konta": "",
+    "numer_konta": "5261048824",
     "rabat": 0,
-    "wystawil": "Nowak i Wspólnicy",
-    "data_zaplaty": ""
+    "wystawil": "Kancelaria Nowak i Wspólnicy",
+    "data_zaplaty": "2026-07-26"
    },
    "metrics": {
-    "seconds": 13.18,
+    "seconds": 26.66,
     "tokens_in": 583,
-    "tokens_out": 151
+    "tokens_out": 164
    }
   }
  ]

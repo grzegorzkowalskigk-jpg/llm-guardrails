@@ -1,6 +1,36 @@
 {
+ "qwen2.5:1.5b|guarded": {
+  "n": 60,
+  "trap_fills": 4,
+  "docs_with_halluc": 3,
+  "caught": {
+   "l1": 1,
+   "l2": 1,
+   "l3": 2
+  },
+  "residue": [],
+  "residue_n": 0,
+  "real_acc": 99.3,
+  "false_alarms": [],
+  "false_alarms_n": 0
+ },
  "qwen2.5:1.5b|naive": {
-  "n": 8,
+  "n": 60,
+  "trap_fills": 30,
+  "docs_with_halluc": 30,
+  "caught": {
+   "l1": 0,
+   "l2": 1,
+   "l3": 29
+  },
+  "residue": [],
+  "residue_n": 0,
+  "real_acc": 99.4,
+  "false_alarms": [],
+  "false_alarms_n": 0
+ },
+ "qwen2.5:3b|guarded": {
+  "n": 60,
   "trap_fills": 4,
   "docs_with_halluc": 4,
   "caught": {
@@ -10,7 +40,22 @@
   },
   "residue": [],
   "residue_n": 0,
-  "real_acc": 100.0,
+  "real_acc": 99.2,
+  "false_alarms": [],
+  "false_alarms_n": 0
+ },
+ "qwen2.5:3b|naive": {
+  "n": 60,
+  "trap_fills": 180,
+  "docs_with_halluc": 60,
+  "caught": {
+   "l1": 0,
+   "l2": 1,
+   "l3": 179
+  },
+  "residue": [],
+  "residue_n": 0,
+  "real_acc": 99.4,
   "false_alarms": [],
   "false_alarms_n": 0
  }
