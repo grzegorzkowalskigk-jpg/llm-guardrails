@@ -1,10 +1,9 @@
-"""Faza 0: test dymny sygnału halucynacji.
+"""EN: Smoke test of the hallucination signal: checks whether the model fills the
+trap fields despite an explicit null option.
+PL: Test dymny sygnalu halucynacji: sprawdza, czy model wypelnia pola-pulapki
+mimo jawnej mozliwosci zwrocenia null.
 
-Pytanie checkpointu: czy model faktycznie łyka pułapki (IBAN, rabat, osoba
-wystawiająca, data zapłaty) mimo jawnej furtki null? Sprawdzamy na 3 fakturach
-i 2 modelach, zanim odpalimy pełny przebieg 60 dokumentów.
-
-Uruchomienie:  python scripts/smoke_test.py [model1 model2 ...]
+Usage / Uruchomienie: python scripts/smoke_test.py
 """
 from __future__ import annotations
 
@@ -23,6 +22,9 @@ PICKS = ["inv_001", "inv_002", "inv_015"]
 
 
 def main() -> None:
+    """EN: Runs a few documents and prints the trap fields filled.
+    PL: Puszcza kilka dokumentow i wypisuje wypelnione pola-pulapki.
+    """
     key = {k["id"]: k for k in json.loads((ROOT / "data/answer_key.json").read_text(encoding="utf-8"))}
     for model in MODELS:
         print(f"\n=== {model} ===")

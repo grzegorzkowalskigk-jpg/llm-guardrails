@@ -1,14 +1,9 @@
-"""Ocena bariery: lejek halucynacji + jakość pól prawdziwych.
+"""EN: Guard evaluation: hallucination funnel across layers plus quality of the
+genuine fields. The answer key is used only here.
+PL: Ocena bariery: lejek halucynacji przez warstwy oraz jakosc pol prawdziwych.
+Klucz odpowiedzi wchodzi do gry dopiero tutaj.
 
-Klucz odpowiedzi wchodzi do gry DOPIERO tutaj — warstwy (layers.py) działają
-w ciemno. Mierzymy:
-- ile pól-pułapek model wypełnił (halucynacje — na tym korpusie ich nie ma),
-- którą warstwą je łapiemy (L1 schemat → L2 ugruntowanie → L3 reguły),
-- RESIDUUM: halucynacje, które przechodzą przez wszystkie warstwy (fałszywe zaufanie),
-- trafność pól prawdziwych + fałszywe alarmy warstw na czystych dokumentach.
-
-Uruchomienie:  python scripts/funnel.py
-Wynik:         tabela + eval/funnel.json
+Usage / Uruchomienie: python scripts/funnel.py
 """
 from __future__ import annotations
 
@@ -24,6 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def field_of_issue(issue: str) -> str | None:
+    """EN: Returns the field an issue refers to. / PL: Zwraca pole, ktorego dotyczy problem."""
     for f in TRAP_FIELDS:
         if f in issue:
             return f
@@ -31,6 +27,7 @@ def field_of_issue(issue: str) -> str | None:
 
 
 def real_ok(want: object, have: object) -> bool:
+    """EN: Compares an extracted value with the key. / PL: Porownuje wyciagnieta wartosc z kluczem."""
     if have is None:
         return False
     if isinstance(want, (int, float)):
@@ -43,6 +40,9 @@ def real_ok(want: object, have: object) -> bool:
 
 
 def main() -> None:
+    """EN: Prints the funnel and per-field quality.
+    PL: Wypisuje lejek i jakosc per pole.
+    """
     key = {k["id"]: k for k in json.loads((ROOT / "data/answer_key.json").read_text(encoding="utf-8"))}
     summary = {}
     for f in sorted((ROOT / "eval").glob("raw__*.json")):

@@ -1,15 +1,9 @@
-"""Warstwy bariery ochronnej — czysty, deterministyczny post-processing.
-
-Żadna warstwa NIE zagląda do klucza odpowiedzi. Każda ocenia wyjście modelu
-wyłącznie na podstawie: struktury (L1), tekstu źródłowego (L2) i reguł
-dziedzinowych (L3). Klucz odpowiedzi służy potem tylko do OCENY warstw
-(ile halucynacji złapały, ile przepuściły, ile fałszywych alarmów).
-
-L1 — schemat/typy (Pydantic): struktura, formaty, zakresy.
-L2 — ugruntowanie: czy wartość w ogóle WYSTĘPUJE w dokumencie źródłowym.
-L3 — reguły ról i spójności: NRB ma 26 cyfr (NIP ma 10 — to nie konto),
-     „wystawił" nie może być firmą z dokumentu, „data zapłaty" przepisana
-     z terminu płatności to cudza rola, netto+VAT=brutto, suma kontrolna NIP.
+"""EN: Guard layers - deterministic post-processing of model output. No layer
+sees the answer key: L1 checks structure, L2 grounding in the source text,
+L3 domain rules.
+PL: Warstwy bariery - deterministyczny post-processing wyjscia modelu. Zadna
+warstwa nie zaglada do klucza: L1 sprawdza strukture, L2 ugruntowanie
+w tekscie zrodlowym, L3 reguly dziedzinowe.
 """
 from __future__ import annotations
 
@@ -21,14 +15,17 @@ LEGAL_FORMS = ("sp. z o.o", "s.a", "sp.j", "s.c", "sp.k")
 
 
 def digits(s: object) -> str:
+    """EN: Keeps digits only. / PL: Zostawia same cyfry."""
     return re.sub(r"\D", "", str(s or ""))
 
 
 def norm(s: object) -> str:
+    """EN: Normalises a value for comparison. / PL: Normalizuje wartosc do porownania."""
     return re.sub(r"\s+", " ", str(s or "").strip().lower())
 
 
 def nip_checksum_ok(nip: str) -> bool:
+    """EN: Validates a tax id checksum. / PL: Sprawdza cyfre kontrolna NIP-u."""
     d = digits(nip)
     if len(d) != 10:
         return False
@@ -37,11 +34,17 @@ def nip_checksum_ok(nip: str) -> bool:
 
 
 def money_variants(v: float) -> list[str]:
+    """EN: Returns the common textual forms of an amount.
+    PL: Zwraca typowe zapisy tekstowe kwoty.
+    """
     return [f"{v:.2f}", f"{v:.2f}".replace(".", ","), f"{v:g}"]
 
 
 # ── L1: schemat ──────────────────────────────────────────────────────────────
 def layer1_schema(raw: dict) -> tuple[Extraction | None, list[str]]:
+    """EN: Validates raw output against the schema.
+    PL: Waliduje surowe wyjscie wobec schematu.
+    """
     try:
         return Extraction.model_validate(raw), []
     except Exception as e:  # noqa: BLE001
@@ -55,14 +58,23 @@ def layer1_schema(raw: dict) -> tuple[Extraction | None, list[str]]:
 
 # ── L2: ugruntowanie w źródle ────────────────────────────────────────────────
 def layer2_grounding(ext: Extraction, ocr: str) -> list[str]:
+    """EN: Checks each extracted value appears in the source document.
+    PL: Sprawdza, czy kazda wyciagnieta wartosc wystepuje w dokumencie.
+    """
     issues = []
     ocr_low = ocr.lower()
     ocr_digits = digits(ocr)
 
     def in_doc_str(v: str) -> bool:
+        """EN: Checks a string appears in the document.
+        PL: Sprawdza, czy napis wystepuje w dokumencie.
+        """
         return norm(v) in ocr_low or (digits(v) != "" and digits(v) in ocr_digits)
 
     def in_doc_money(v: float) -> bool:
+        """EN: Checks an amount appears in the document in any common form.
+        PL: Sprawdza, czy kwota wystepuje w dokumencie w dowolnym typowym zapisie.
+        """
         return any(x in ocr for x in money_variants(v))
 
     for f in ("invoice_number", "seller_nip", "buyer_nip"):
@@ -85,6 +97,9 @@ def layer2_grounding(ext: Extraction, ocr: str) -> list[str]:
 
 # ── L3: reguły ról i spójności ───────────────────────────────────────────────
 def layer3_rules(ext: Extraction, ocr: str) -> list[str]:
+    """EN: Applies domain rules (arithmetic, dates, roles).
+    PL: Stosuje reguly dziedzinowe (arytmetyka, daty, role).
+    """
     issues = []
 
     # numer konta: polski NRB = 26 cyfr; 10 cyfr to NIP, nie konto
@@ -135,15 +150,16 @@ def layer3_rules(ext: Extraction, ocr: str) -> list[str]:
 
 
 def issue_class(issue: str) -> str:
-    """Rozdziela winę: 'defect' = wada samego dokumentu (model wiernie ją przepisał,
-    retry bezsensowny → człowiek), 'model' = błąd modelu (halucynacja/rola/format,
-    retry ma prawo zadziałać). L3/spojnosc (arytmetyka, suma kontrolna) dotyczy
-    wartości ugruntowanych w źródle — to defekt dokumentu, nie modelu."""
+    """EN: Splits blame between a document defect and a model error.
+    PL: Rozdziela wine miedzy wade dokumentu a blad modelu.
+    """
     return "defect" if issue.startswith("L3/spojnosc") else "model"
 
 
 def run_layers(raw: dict, ocr: str) -> dict:
-    """Pełna bariera: zwraca ekstrakcję (lub None) + problemy per warstwa."""
+    """EN: Runs all layers; returns the extraction (or None) and issues per layer.
+    PL: Uruchamia wszystkie warstwy; zwraca ekstrakcje (lub None) i problemy per warstwa.
+    """
     ext, l1 = layer1_schema(raw)
     if ext is None:
         return {"ext": None, "l1": l1, "l2": [], "l3": [], "ok": False}

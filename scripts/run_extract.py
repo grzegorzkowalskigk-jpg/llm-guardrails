@@ -1,15 +1,9 @@
-"""Pełny przebieg pomiarowy: model × wariant promptu × 60 faktur.
+"""EN: Measurement run: model x prompt variant x the whole corpus. Stores raw
+model output with no guard applied.
+PL: Przebieg pomiarowy: model x wariant promptu x caly korpus. Zapisuje surowe
+wyjscie modelu, bez nakladania bariery.
 
-Zapisujemy SUROWE odpowiedzi modelu (bez żadnej bariery) — warstwy ochronne
-są czystym post-processingiem (scripts/layers.py), więc można je stroić
-i mierzyć bez ponownego odpytywania modelu.
-
-Warianty promptu:
-- naive   — pola wypisane jak w formularzu, bez slowa o null (prompt pisany w pospiechu)
-- guarded — jawna furtka: "jesli pola nie ma na dokumencie, zwroc null"
-
-Uruchomienie:  python scripts/run_extract.py <model> <naive|guarded>
-Wynik:         eval/raw__<model>__<wariant>.json (wznawialny)
+Usage / Uruchomienie: python scripts/run_extract.py
 """
 from __future__ import annotations
 
@@ -41,6 +35,9 @@ PROMPTS = {"naive": NAIVE, "guarded": EXTRACT}
 
 
 def main() -> None:
+    """EN: Runs extraction over the corpus and writes raw results.
+    PL: Przepuszcza korpus przez ekstrakcje i zapisuje surowe wyniki.
+    """
     if len(sys.argv) < 3 or sys.argv[2] not in PROMPTS:
         print("Uzycie: python scripts/run_extract.py <model> <naive|guarded>")
         sys.exit(1)

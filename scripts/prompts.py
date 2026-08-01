@@ -1,9 +1,7 @@
-"""Prompt ekstrakcji z polami-pułapkami.
-
-Uczciwość metodologiczna: prompt JAWNIE pozwala zwrócić null dla pól, których
-nie ma na dokumencie. Nie zastawiamy sideł językowych — mierzymy, jak często
-model wymyśla wartość MIMO otwartej furtki. Dokładnie tak wyglądają produkcyjne
-prompty ekstrakcji (schemat formularza jest szerszy niż pojedynczy dokument).
+"""EN: Extraction prompt with trap fields. The prompt explicitly allows null for
+fields absent from the document, so refusal is always available to the model.
+PL: Prompt ekstrakcji z polami-pulapkami. Prompt jawnie pozwala zwrocic null
+dla pol nieobecnych na dokumencie, wiec model zawsze ma furtke odmowy.
 """
 
 EXTRACT = """Jestes ekstraktorem danych z polskich faktur. Z ponizszego tekstu faktury

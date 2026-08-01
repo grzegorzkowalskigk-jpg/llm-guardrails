@@ -1,12 +1,7 @@
-"""Warstwa 1 bariery: schemat i typy (Pydantic).
-
-Łapie wyjście popsute STRUKTURALNIE: brakujące pola, złe typy, NIP o złej
-długości, ujemne kwoty, daty w złym formacie. Nie ocenia jeszcze, czy wartości
-są prawdziwe — od tego są warstwy 2 (ugruntowanie w źródle) i 3 (spójność).
-
-Pola-pułapki (numer_konta, rabat, wystawil, data_zaplaty) są Optional:
-poprawna odpowiedź na korpusie to zawsze None, bo tych danych NIE MA na
-dokumentach. Wypełniona wartość = kandydat na halucynację (osądza warstwa 2).
+"""EN: Guard layer 1 - schema and types (Pydantic): catches structurally broken
+output such as missing fields, wrong types or malformed dates.
+PL: Warstwa 1 bariery - schemat i typy (Pydantic): lapie wyjscie zepsute
+strukturalnie, np. brakujace pola, zle typy albo bledny format daty.
 """
 from __future__ import annotations
 
@@ -32,6 +27,7 @@ class Extraction(BaseModel):
     @field_validator("invoice_number")
     @classmethod
     def numer_niepusty(cls, v: str) -> str:
+        """EN: Rejects an empty invoice number. / PL: Odrzuca pusty numer faktury."""
         if not v or not v.strip():
             raise ValueError("pusty numer faktury")
         return v.strip()
@@ -39,6 +35,7 @@ class Extraction(BaseModel):
     @field_validator("seller_nip", "buyer_nip")
     @classmethod
     def nip_10_cyfr(cls, v: str) -> str:
+        """EN: Requires a 10-digit tax id. / PL: Wymaga 10-cyfrowego NIP-u."""
         digits = re.sub(r"\D", "", str(v))
         if len(digits) != 10:
             raise ValueError(f"NIP musi miec 10 cyfr, jest {len(digits)}")
@@ -47,6 +44,7 @@ class Extraction(BaseModel):
     @field_validator("total_net", "total_vat", "total_gross")
     @classmethod
     def kwota_nieujemna(cls, v: float) -> float:
+        """EN: Rejects negative amounts. / PL: Odrzuca kwoty ujemne."""
         if v < 0:
             raise ValueError("kwota ujemna")
         return round(float(v), 2)
@@ -54,6 +52,7 @@ class Extraction(BaseModel):
     @field_validator("data_zaplaty")
     @classmethod
     def data_format(cls, v: str | None) -> str | None:
+        """EN: Requires an ISO date. / PL: Wymaga daty w formacie ISO."""
         if v is None:
             return None
         if not re.match(r"^\d{4}-\d{2}-\d{2}$", str(v)):
@@ -65,6 +64,7 @@ class Extraction(BaseModel):
     def pusty_string_to_none(cls, v: object) -> object:
         # modele czesto zwracaja "" albo "brak" zamiast null — normalizujemy,
         # zeby nie liczyc tego jako halucynacji (to poprawna odmowa)
+        """EN: Maps an empty string to None. / PL: Zamienia pusty napis na None."""
         if v is None:
             return None
         s = str(v).strip().lower()
@@ -76,6 +76,7 @@ class Extraction(BaseModel):
     @classmethod
     def rabat_zero_to_none(cls, v: object) -> object:
         # rabat 0 / "0.00" to poprawna odpowiedz "brak rabatu", nie halucynacja
+        """EN: Maps a zero discount to None. / PL: Zamienia zerowy rabat na None."""
         if v is None:
             return None
         try:

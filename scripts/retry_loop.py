@@ -1,14 +1,9 @@
-"""Faza 3: pętla samokorekty — odrzucenie z konkretnym powodem + jedna poprawka.
+"""EN: Self-correction loop: rejected output is returned to the model with the
+concrete reason, the schema and its previous answer, for one retry.
+PL: Petla samokorekty: odrzucone wyjscie wraca do modelu z konkretnym powodem,
+schematem i jego poprzednia odpowiedzia, na jedna poprawke.
 
-Bariera nie tylko blokuje: mówi modelowi DLACZEGO. Dla każdego dokumentu,
-na którym warstwy zgłosiły problem, wysyłamy jedną prośbę o poprawę z listą
-zastrzeżeń. Mierzymy: ile problemów znika po jednej rundzie feedbacku
-(odzysk), a ile wymaga twardej blokady.
-
-Uruchamiać PO zakończeniu run_extract (Ollama wolna).
-
-Uruchomienie:  python scripts/retry_loop.py <model> <naive|guarded>
-Wynik:         eval/retry__<model>__<wariant>.json
+Usage / Uruchomienie: python scripts/retry_loop.py
 """
 from __future__ import annotations
 
@@ -48,6 +43,9 @@ FAKTURA:
 
 
 def main() -> None:
+    """EN: Retries every flagged document once and reports the recovery rate.
+    PL: Ponawia raz kazdy zakwestionowany dokument i raportuje odsetek odzysku.
+    """
     model, variant = sys.argv[1], sys.argv[2]
     key = {k["id"]: k for k in json.loads((ROOT / "data/answer_key.json").read_text(encoding="utf-8"))}
     raw = json.loads((ROOT / "eval" / f"raw__{model.replace(':', '_')}__{variant}.json").read_text(encoding="utf-8"))

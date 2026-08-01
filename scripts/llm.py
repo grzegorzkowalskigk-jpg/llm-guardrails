@@ -1,4 +1,6 @@
-"""Wspólny klient Ollama: jedno wywołanie czatu z metrykami (czas, tokeny)."""
+"""EN: Shared Ollama chat client returning parsed JSON plus timing and token metrics.
+PL: Wspolny klient czatu Ollamy zwracajacy sparsowany JSON oraz metryki czasu i tokenow.
+"""
 from __future__ import annotations
 
 import json
@@ -10,7 +12,9 @@ DEFAULT_MODEL = "qwen2.5:3b"
 
 
 def chat_json(prompt: str, model: str = DEFAULT_MODEL, timeout: int = 600) -> tuple[dict, dict]:
-    """Zwraca (sparsowany JSON odpowiedzi, metryki: sekundy / tokeny in / tokeny out)."""
+    """EN: Sends a prompt and returns (parsed JSON, metrics).
+    PL: Wysyla prompt i zwraca (sparsowany JSON, metryki).
+    """
     body = json.dumps({
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
